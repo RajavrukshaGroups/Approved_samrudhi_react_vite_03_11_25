@@ -1,0 +1,143 @@
+.careers-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.career-ind {
+  margin: 50px;
+  width: 400px;
+  height: auto;
+  flex-shrink: 0;
+  transition: transform 0.8s ease-in-out;
+}
+
+.protected-image {
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.career-ind img {
+  border-radius: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.career-ind img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.bde-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.bde-title-intern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.career-ind:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.para-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0b3d2c;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.career-video-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.career-video {
+  width: 100%;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .careers-list {
+    display: block;
+    margin-left: -5rem;
+  }
+
+  .career-ind {
+    margin: 100px;
+    width: 75%;
+    height: auto;
+  }
+  .career-ind img {
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .career-ind:hover {
+    cursor: default;
+    transform: none;
+  }
+  .career-ind img:hover {
+    box-shadow: none;
+  }
+  .bde-title {
+    margin-top: 15px;
+  }
+  .career-video-container {
+    padding: 10px;
+    border-radius: 20px;
+    /* margin: 30px 20px; */
+    margin-left: 5rem;
+    width: auto;
+  }
+  .career-video {
+    border-radius: 20px;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .career-ind {
+    margin: 35px;
+    width: 276px;
+    height: auto;
+    flex-shrink: 0;
+    transition: transform 0.8s ease-in-out;
+  }
+  .career-video-container {
+    padding: 15px;
+    border-radius: 30px;
+    margin: 35px 25px;
+  }
+  .career-video {
+    border-radius: 25px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .career-video:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+  }
+}

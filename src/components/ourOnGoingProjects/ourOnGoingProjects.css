@@ -1,0 +1,111 @@
+.projects-container-new {
+  min-height: 0vh;
+  /* background: white; */
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  /* background-color: bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329]; */
+    /* background: linear-gradient(to bottom right, #4a5240, #3d4436, #2d3329); */
+
+}
+
+.projects-content {
+  margin-top: -4rem;
+}
+
+.projects-title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #004d40;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Flex container for two projects */
+.projects-wrapper {
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 2rem;
+   padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+   /* flex-wrap: wrap;
+   margin-top: 1rem; */
+   /* justify-content: center; */           
+}
+
+.project-card {
+  flex: 1 1 calc(50% - 2rem);
+  max-width: 480px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  /* background-color: rgb(245, 245, 245); */
+  backdrop-filter: blur(4px);
+  transform: none;
+  transition: none;
+}
+
+
+/* .project-card {
+  flex: 1 1 calc(50% - 2rem);
+  max-width: 480px;
+  padding: 15px;
+
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(245, 245, 245); 
+  backdrop-filter: blur(4px);
+
+ 
+} */
+
+/* Image container */
+.project-image-container {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.project-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#000000;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+.project-subtitle-keyConcept {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#000000;
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* margin-bottom: 3rem; */
+}
+
+.project-description {
+  font-size: 17px;
+  color:#d4a843;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive - Stack projects on smaller screens */
+@media (max-width: 768px) {
+  .projects-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    flex: 1 1 100%;
+  }
+}

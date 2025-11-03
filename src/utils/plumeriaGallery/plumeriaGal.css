@@ -1,0 +1,43 @@
+.plumeria-gal-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.inf-gal-plum {
+  margin-top: 2rem;
+}
+
+.sylvanNew-gallery {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0b3d2c;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.ecoNew-gallery {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 92%;
+  /* justify-content: flex-start; */
+  /* white-space: nowrap; */
+  /* margin-right: -0.1rem; */
+  /* margin-left: 1rem; */
+}
+
+.ecoNew-gallery::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #2e7d32;
+}
