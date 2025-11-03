@@ -20,7 +20,7 @@ const AboutCompany = () => {
         {/* Right Content */}
         <div className="flex-1 text-gray-700">
           {/* Heading */}
-       <img style={{width:'60px',height:'60px',marginLeft:'90px'}} src={SamrudhiHalfcut} alt="logo" className="text-[#FF6B00] mr-2 text-4xl items-center pb-2"/>
+       {/* <img style={{width:'60px',height:'60px',marginLeft:'90px'}} src={SamrudhiHalfcut} alt="logo" className="text-[#FF6B00] mr-2 text-4xl items-center pb-2"/> */}
             {/* <h2 className="text-3xl md:text-4xl font-bold mb-6 flex items-center">
               <span className="text-[#092811]">Why </span>
               <span className="ml-2 bg-gradient-to-r from-[#005a15] via-[#00b064] to-[#103100] bg-clip-text text-transparent">

@@ -67,8 +67,8 @@ const KeyConcept = () => {
               Empowering Values for a Better Future
             </h1> */}
             <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-            <span className="text-[#054b16] md:text-[40px]">Empowering Values</span>{' '}
-            <span className="text-green-500 md:text-[40px]">for a Better Future</span>
+            <span className="text-yellow-300 md:text-[40px]">Empowering Values</span>{' '}
+            <span className="text-[#000000] md:text-[40px]">for a Better Future</span>
           </h1>
 
             {/* Features Grid */}

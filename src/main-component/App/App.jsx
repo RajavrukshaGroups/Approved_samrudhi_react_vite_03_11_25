@@ -20,10 +20,7 @@ const App = () => {
             <div className="toast-wrapper">
                 <ToastContainer/>
             </div>
-                {/* <TawkMessengerReact
-                    propertyId="66d2d5ab50c10f7a00a26593"
-                    widgetId="1i70srim4"
-                    /> */}
+               
                 <AllRoute />
         </div>
     );

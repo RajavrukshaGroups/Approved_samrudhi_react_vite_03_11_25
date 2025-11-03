@@ -27,6 +27,7 @@ export default function PojectIconic() {
               {/* Project Card 1 */}
             <div class="project-card group relative overflow-hidden rounded-xl cursor-pointer h-full flex flex-col">
   {/* Background image container with logo overlay */}
+
   <div 
     class="project-image-container h-56 overflow-hidden rounded-t-xl flex-shrink-0 relative flex items-center justify-center"
     style={{
@@ -40,11 +41,14 @@ export default function PojectIconic() {
     <div class="absolute inset-0 bg-black/40"></div>
     
     {/* Logo */}
+      <Link to="/sylvan-retreat">
+  
     <img
       src="https://rajavrukshagroup.in/static/media/Sylvan-official-logo.03abfc0da66b2119cfef.png"
       alt="Sylvan Retreat"
       class="relative z-10 w-32 h-32 object-contain group-hover:scale-110 transition-transform duration-500"
-    />
+      />
+      </Link>
     
     {/* Gradient overlay at bottom */}
     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
