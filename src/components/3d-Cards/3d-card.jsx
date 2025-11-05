@@ -28,6 +28,7 @@ export const CardContainer = ({
   };
 
   const handleMouseEnter = (e) => {
+    
     setIsMouseEntered(true);
     if (!containerRef.current) return;
   };

@@ -13,6 +13,7 @@ import ProjectIconic from "../../components/projects-cards/projects-iconic.jsx"
 const PageTitle = React.lazy(() => import("../../components/pagetitle/index.jsx"));
 const ProjectListNew = React.lazy(() => import("../../components/ProjectListNew/index.jsx"));
 const Footer = React.lazy(() => import("../../components/footer/index.jsx"));
+import ProjectLovableCard from "../../components/project-card-new/ProjectCard.tsx"
 
 const ProjectPageNew = () => {
   const description =
@@ -64,6 +65,7 @@ const ProjectPageNew = () => {
         {/* <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} /> */}
         <ProjectCardContainer />
         <ProjectIconic />
+        {/* <ProjectLovableCard /> */}
         {/* <ProjectListNew /> */}
         <Footer />
       </Suspense>

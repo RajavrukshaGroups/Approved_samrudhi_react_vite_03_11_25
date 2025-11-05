@@ -125,8 +125,8 @@ const ServicesSection = () => {
           Investor-Centric Approach
         </h2> */}
         <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-  <span className="text-[#054b16] md:text-[50px]">Investor-Centric </span>
-  <span className="text-green-500 md:text-[50px]">Approach</span>
+  <span className="text-[#000000] md:text-[50px]">Investor-Centric </span>
+  <span className="text-yellow-400 md:text-[50px]">Approach</span>
 </h2>
 
          <p className="font-normal pl-8 text-black">At Samrudhi, we recognize that our investors are pivotal to our success. We are

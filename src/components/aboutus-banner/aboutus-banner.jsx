@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Heart, TrendingUp, Lightbulb, Users, Leaf, Award } from "lucide-react";
-import AboutUsImageModern from "../assets/assets/modernhomeaboutusnew.jpg";
+import AboutUsImageModern from "../assets/assets/whychoseone.jpg";
 
 // Floating badge data
 const valueBadges = [
-  { icon: Heart, label: "Trust", color: "from-rose-400 to-pink-500", position: "top-0 -left-8" },
+  // { icon: Heart, label: "Trust", color: "from-rose-400 to-pink-500", position: "top-0 -left-8" },
   { icon: TrendingUp, label: "Growth", color: "from-emerald-400 to-teal-500", position: "top-12 -right-12" },
   { icon: Lightbulb, label: "Innovation", color: "from-yellow-400 to-amber-500", position: "bottom-16 -left-12" },
   { icon: Users, label: "Community", color: "from-blue-400 to-indigo-500", position: "bottom-4 -right-8" },
@@ -35,7 +35,7 @@ const itemVariants = {
 
 export default function AboutUsSection() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-background via-muted to-primary/5 px-6 md:px-12 lg:px-20 py-16 md:py-64 overflow-hidden">
+    <section className="relative min-h- bg-gradient-to-br from-background via-muted to-primary/5 px-6 md:px-12 lg:px-20 py-16 md:py-64 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
@@ -57,7 +57,7 @@ export default function AboutUsSection() {
               className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-light leading-tight"
             >
               <span className="text-foreground text-6xl font-[Arial,Helvetica,sans-serif]">We strive to uncover the </span>
-              <span className="font-[Arial,Helvetica,sans-serif] text-6xl bg-gradient-to-r from-accent via-yellow-400 to-accent bg-clip-text text-transparent">
+              <span className="font-[Arial,Helvetica,sans-serif] text-6xl bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
                 perfect choice for you
               </span>
             </motion.h2>

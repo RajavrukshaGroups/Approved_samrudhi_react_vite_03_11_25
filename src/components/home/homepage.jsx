@@ -74,7 +74,7 @@ const HeroSection = () => {
         </div>
       ) : (
         <>
-          <Navbar />
+          <Navbar/>
           <section className="relative min-h-screen flex items-center justify-center overflow-hidden transition-opacity duration-1000 ease-in-out opacity-100">
             {/* Background Video */}
             <div className="absolute inset-0 z-0">

@@ -13,8 +13,8 @@ function IntegratedTeam() {
             Our Integrated Team of Experts
           </h1> */}
                   <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-            <span className="text-[#054b16] md:text-[50px]">Our Integrated </span>
-            <span className="text-green-500 md:text-[50px]">Team of Experts</span>
+            <span className="text-[#000000] md:text-[50px]">Our Integrated </span>
+            <span className="text-yellow-400 md:text-[50px]">Team of Experts</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-600 mx-auto rounded-full"></div>
         </div>
@@ -23,7 +23,7 @@ function IntegratedTeam() {
         <div className="space-y-2">
           {/* Card 1 */}
           <div className="group bg-white rounded-2xl shadow-md border border-gray-200 p-8 transition-all duration-500 hover:shadow-2xl hover:border-emerald-400 hover:-translate-y-2">
-            <div className="border-l-4 border-emerald-500 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
+            <div className="border-l-4 border-yellow-500 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
               <p className="text-lg text-gray-700 leading-relaxed transform transition-all duration-500 group-hover:text-gray-900">
                 At Samrudhi, we pride ourselves on a holistic approach to residential layout developments, seamlessly integrating the technical prowess of our seasoned site engineers with the strategic insights of our marketing team.
               </p>
@@ -50,7 +50,7 @@ function IntegratedTeam() {
 
           {/* Card 4 */}
           <div className="group bg-white rounded-2xl shadow-md border border-gray-200 p-8 transition-all duration-500 hover:shadow-2xl hover:border-emerald-400 hover:-translate-y-2">
-            <div className="border-l-4 border-emerald-500 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
+            <div className="border-l-4 border-yellow-500 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
               <p className="text-lg text-gray-700 leading-relaxed transform transition-all duration-500 group-hover:text-gray-900">
                 This synergy between the entire team ensures that each project not only meets the highest standards of quality but also reaches its intended audience with precision.
               </p>
@@ -58,8 +58,8 @@ function IntegratedTeam() {
           </div>
 
           {/* Card 5 - Highlighted */}
-          <div className="group bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl shadow-md border-2 border-emerald-300 p-8 transition-all duration-500 hover:shadow-2xl hover:border-emerald-500 hover:-translate-y-2">
-            <div className="border-l-4 border-emerald-600 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
+          <div className="group bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl shadow-md border-2 border-yellow-300 p-8 transition-all duration-500 hover:shadow-2xl hover:border-yellow-500 hover:-translate-y-2">
+            <div className="border-l-4 border-yellow-600 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
               <p className="text-lg font-medium text-gray-800 leading-relaxed transform transition-all duration-500 group-hover:text-gray-900">
                 Together, we deliver residential communities that are both well-constructed and well-received.
               </p>

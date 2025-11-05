@@ -12,14 +12,14 @@ export default function TrustSection() {
             Our Commitment to Excellence
           </h2> */}
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-            <span className="text-[#054b16] md:text-[50px]">Our Commitment to </span>
-            <span className="text-green-500 md:text-[50px]">Excellence</span>
+            <span className="text-[#000000] md:text-[50px]">Our Commitment to </span>
+            <span className="text-yellow-400 md:text-[50px]">Excellence</span>
           </h2>
           <div className="mt-10 space-y-6 lg:space-y-8">
             {/* Feature 01 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="text-emerald-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-emerald-600">
+                <span className="text-yellow-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
                   01
                 </span>
                 <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
@@ -35,7 +35,7 @@ export default function TrustSection() {
             {/* Feature 02 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="text-teal-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-teal-600">
+                <span className="text-yellow-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
                   02
                 </span>
                 <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
@@ -51,7 +51,7 @@ export default function TrustSection() {
             {/* Feature 03 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="text-cyan-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-cyan-600">
+                <span className="text-yellow-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
                   03
                 </span>
                 <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">

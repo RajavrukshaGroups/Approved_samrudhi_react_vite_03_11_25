@@ -1,6 +1,6 @@
 // AboutCompany.jsx
 import React from "react";
-import aboutImg from "../../components/assets/about-company.jpg"; // Replace with your image path
+import aboutImg from "../../components/assets/assets/whuchoose.jpg"; // Replace with your image path
 import SamrudhiHalfcut from "../../components/assets/samrudhi_logo_half_cut.png";
 
 const AboutCompany = () => {
@@ -28,8 +28,8 @@ const AboutCompany = () => {
               </span>
             </h2>              */}
             <h2 className="project-subtitle-keyConcept text-4xl md:text-5xl lg:text-6xl font-light mb-8 flex items-center leading-tight">
-              <span className="text-[#092811] md:text-[50px]" >Why </span>
-              <span className="md:text-[50px] ml-2 bg-gradient-to-r from-[#005a15] via-[#00b064] to-[#103100] bg-clip-text text-transparent">
+              <span className="text-[#000000] md:text-[50px]" >Why </span>
+              <span className="md:text-yellow-400 ml-2 bg-gradient-to-r from-[#005a15] via-[#00b064] to-[#103100] bg-clip-text text-transparent">
                 Choose Us  
               </span>
             </h2>

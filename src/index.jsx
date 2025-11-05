@@ -23,7 +23,5 @@ const root = createRoot(container); // Create a root
 
 // Now you can call root.render
 root.render(
-  <React.StrictMode>
-      <App />
-  </React.StrictMode>
+  <App />
 );
