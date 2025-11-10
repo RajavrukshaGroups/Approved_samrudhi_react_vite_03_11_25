@@ -8,8 +8,8 @@ interface ProjectCardProps {
   link: string;
   className?: string;
 }
-
-const ProjectCard = ({ name, logo, backgroundImage, link, className }: ProjectCardProps) => {
+ 
+const ProjectCard = ({ name, logo, backgroundImage, link, className }: ProjectCardProps ) => {
   return (
     <div className={cn("group flex flex-col", className)}>
       {/* Project Name Above Card */}
@@ -34,8 +34,8 @@ const ProjectCard = ({ name, logo, backgroundImage, link, className }: ProjectCa
           
           {/* Logo */}
           <img
-            src={logo}
-            alt={name}
+            src={logo}  
+            alt={name} 
             className="relative z-10 w-32 h-32 object-contain transition-transform duration-300 group-hover:scale-110"
           />
         </div>
@@ -43,7 +43,7 @@ const ProjectCard = ({ name, logo, backgroundImage, link, className }: ProjectCa
         {/* Content Section */}
         <div className="p-6 bg-card">
           <div className="flex items-center justify-between">
-            <span className="text-sm text-muted-foreground">View Project Details</span>
+            {/* <span className="text-sm text-muted-foreground">View Project Details</span> */}
             <svg 
               className="h-5 w-5 text-primary transition-transform duration-300 group-hover:translate-x-1" 
               fill="none" 

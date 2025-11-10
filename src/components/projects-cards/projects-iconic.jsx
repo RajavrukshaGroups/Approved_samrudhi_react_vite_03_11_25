@@ -19,8 +19,8 @@ export default function PojectIconic() {
           <div class="bg-[#ffffff] rounded-2xl p-8 shadow-md">
             {/* <h2 class="text-6xl font-semibold text-green-900 mb-8 text-center">Our Projects</h2> */}
             <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-              <span className="text-[#054b16] md:text-[50px]">Our</span>{' '}
-              <span className="text-green-500 md:text-[50px]">Projects</span>
+              <span className="text-[#000000] md:text-[50px]">Our</span>{' '}
+              <span className="text-yellow-500 md:text-[50px]">Projects</span>
             </h2>
             {/* Projects Grid - 3 cards in a row */}
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
@@ -180,7 +180,6 @@ export default function PojectIconic() {
               <span class="text-white font-semibold text-xl">View Project</span>
             </div>
           </div>
-
             </div>
           </div>
         </div>

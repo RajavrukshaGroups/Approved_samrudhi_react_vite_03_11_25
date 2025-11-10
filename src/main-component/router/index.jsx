@@ -86,7 +86,7 @@ useEffect(() => {
         <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
-        {/* <Route path="/projects" element={<ProjectPage />} /> */}
+        {/* <Route path="/projects" element={<ProjectPage />} /> */}                                
         <Route path="/projects" element={<ProjectPageNew />} />
         <Route path="/projects-single" element={<ProjectSinglePage />} />
         <Route path="/service" element={<ServicePage />} />

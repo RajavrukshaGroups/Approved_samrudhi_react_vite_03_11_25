@@ -106,9 +106,9 @@ export default function ServiceSection() {
         initialOpacity={0} >
         {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
      <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-  <span className="text-[#000000] md:text-[50px]">Our</span>{' '}
-  <span className="text-[#fde047] md:text-[50px]">Services</span>
-</h2>
+        <span className="text-[#000000] md:text-[50px]">Our</span>{' '}
+        <span className="text-[#fde047] md:text-[50px]">Services</span>
+      </h2>
 
       </FadeContent>
      
@@ -120,7 +120,7 @@ export default function ServiceSection() {
               key={service.id}
               className={`group relative transition-all duration-700 delay-${index * 150} ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              }`}   
             >
               {/* Main Card */}
               <div

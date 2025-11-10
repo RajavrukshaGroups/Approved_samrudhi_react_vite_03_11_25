@@ -16,17 +16,18 @@ const AboutCompany = () => {
             className="rounded-2xl shadow-lg w-full"
           />
         </div>
-
         {/* Right Content */}
         <div className="flex-1 text-gray-700">
           {/* Heading */}
        {/* <img style={{width:'60px',height:'60px',marginLeft:'90px'}} src={SamrudhiHalfcut} alt="logo" className="text-[#FF6B00] mr-2 text-4xl items-center pb-2"/> */}
+        
             {/* <h2 className="text-3xl md:text-4xl font-bold mb-6 flex items-center">
               <span className="text-[#092811]">Why </span>
               <span className="ml-2 bg-gradient-to-r from-[#005a15] via-[#00b064] to-[#103100] bg-clip-text text-transparent">
                 Choose Us
               </span>
-            </h2>              */}
+            </h2>  */}
+
             <h2 className="project-subtitle-keyConcept text-4xl md:text-5xl lg:text-6xl font-light mb-8 flex items-center leading-tight">
               <span className="text-[#000000] md:text-[50px]" >Why </span>
               <span className="md:text-yellow-400 ml-2 bg-gradient-to-r from-[#005a15] via-[#00b064] to-[#103100] bg-clip-text text-transparent">
@@ -44,7 +45,8 @@ const AboutCompany = () => {
             located in the prime areas of North Bangalore. This extensive portfolio reflects our dedication to
             quality, integrity, and client satisfaction. Whether you're looking to buy, sell, or invest, we offer
             personalized solutions that align with your goals, backed by a team of professionals who are
-            passionate about making your real estate journey smooth and successful.
+            passionate about making your real estate journey smooth and successful.       
+            
             {/* in <span className="font-semibold">Digital Marketing</span>,{" "}
             <span className="font-semibold">Graphic Designing</span>, and{" "}
             <span className="font-semibold">Custom Web Development</span>.

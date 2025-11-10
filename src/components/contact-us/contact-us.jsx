@@ -15,9 +15,9 @@ export default function ContactCard() {
                We’re here to help you . <span className="text-gray-600">make the right choice</span>
               </h2> */}
               <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-  <span className="text-[#054b16] md:text-[40px]">We’re here to help you</span>{' '}
-  <span className="text-green-500 md:text-[40px]">make the right choice</span>
-</h2>
+                <span className="text-[#000000] md:text-[40px]">We’re here to help you</span>{' '}
+                <span className="text-yellow-500 md:text-[40px]">make the right choice</span>
+              </h2>
 
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                 Fill out the form below and our team will get back to you as soon as possible.

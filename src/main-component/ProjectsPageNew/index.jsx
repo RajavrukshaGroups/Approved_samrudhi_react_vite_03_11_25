@@ -9,7 +9,7 @@ import Loader from "../../components/Loader/loader.jsx";
 import Navabar from "../../components/navbar/navbar.jsx";
 import ProjectCardContainer from "../../components/projects-cards/projects-container.jsx";
 import ProjectIconic from "../../components/projects-cards/projects-iconic.jsx"
-// import ProjectList from "../../../src/main-component/ProjectsPageNew/index.jsx";
+import ProjectList from "../../components/our_new_project/projects-section.tsx";
 const PageTitle = React.lazy(() => import("../../components/pagetitle/index.jsx"));
 const ProjectListNew = React.lazy(() => import("../../components/ProjectListNew/index.jsx"));
 const Footer = React.lazy(() => import("../../components/footer/index.jsx"));
@@ -64,8 +64,8 @@ const ProjectPageNew = () => {
       >
         {/* <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} /> */}
         <ProjectCardContainer />
-        <ProjectIconic />
-        {/* <ProjectLovableCard /> */}
+        {/* <ProjectIconic /> */}
+        <ProjectList />
         {/* <ProjectListNew /> */}
         <Footer />
       </Suspense>
