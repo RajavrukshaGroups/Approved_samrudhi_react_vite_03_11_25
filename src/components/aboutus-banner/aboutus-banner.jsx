@@ -33,7 +33,9 @@ const itemVariants = {
   },
 };
 
+
 export default function AboutUsSection() {
+
   return (
     <section className="relative min-h- bg-gradient-to-br from-background via-muted to-primary/5 px-6 md:px-12 lg:px-20 py-16 md:py-64 overflow-hidden">
       {/* Background decorative elements */}
@@ -47,8 +49,7 @@ export default function AboutUsSection() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
-        className="relative z-10 max-w-7xl mx-auto"
-      >
+        className="relative z-10 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <motion.div variants={itemVariants} className="space-y-6 order-2 lg:order-1">
@@ -63,9 +64,11 @@ export default function AboutUsSection() {
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+
               At <span className="font-semibold text-foreground">Samrudhi</span>, we are driven by a vision: to create
               exceptional spaces that inspire, endure, and elevate the way people live and invest. We are committed to
               shaping inspired living through visionary developments and bespoke real estate solutions.
+
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4 pt-4">

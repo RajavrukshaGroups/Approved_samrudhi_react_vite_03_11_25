@@ -113,7 +113,7 @@ const ServicesSection = () => {
     <section className="relative isolate overflow-hidden py-12 sm:py-16 lg:py-20">
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white to-white"></div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+          <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
             <span className="text-[#000000] md:text-[50px]">Investor-Centric </span>
             <span className="text-yellow-400 md:text-[50px]">Approach</span>
           </h2>

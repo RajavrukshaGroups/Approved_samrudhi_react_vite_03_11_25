@@ -9,10 +9,7 @@ function IntegratedTeam() {
           <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl mb-6 shadow-lg transform transition-transform duration-500 hover:rotate-12 hover:shadow-2xl">
             <Users className="w-10 h-10 text-white" />
           </div>
-          {/* <h1 className="text-5xl font-bold text-gray-900 mb-4 tracking-tight">
-            Our Integrated Team of Experts
-          </h1> */}
-                  <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+          <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
             <span className="text-[#000000] md:text-[50px]">Our Integrated </span>
             <span className="text-yellow-400 md:text-[50px]">Team of Experts</span>
           </h2>

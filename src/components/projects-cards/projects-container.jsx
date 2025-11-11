@@ -43,17 +43,16 @@ export default function AlumniHero() {
       </div>
 
       <div className="flex-1 flex items-end justify-center relative h-[550px] z-10 max-lg:hidden">
-  {/* Large yellow circle */}
- <div className="absolute left-1/4 top-14 w-[500px] h-[500px] rounded-full opacity-85 -z-10">
-  <img
-    src={HomeImg}
-    alt="Graduate"
-    className="relative drop-shadow-xl z-10"
-    style={{ left: "0px", top: "100px", zIndex: 10, width: "500px" }}
-    />
-</div>
- 
-</div>
+          {/* Large yellow circle */}
+        <div className="absolute left-1/4 top-14 w-[500px] h-[500px] rounded-full opacity-85 -z-10">
+          <img
+            src={HomeImg}
+            alt="Graduate"
+            className="relative drop-shadow-xl z-10"
+            style={{ left: "0px", top: "100px", zIndex: 10, width: "500px" }}
+            />
+          </div>
+        </div>
 
       {/* Mobile graduates */}
       <div className="lg:hidden flex justify-center items-center absolute right-0 bottom-0 left-0 z-10">
