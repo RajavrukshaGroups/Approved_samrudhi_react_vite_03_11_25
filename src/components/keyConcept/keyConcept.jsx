@@ -72,7 +72,7 @@ const KeyConcept = () => {
           </h1>
 
             {/* Features Grid */}
-            <div className="relative bg-gradient-to-br from-green-200 to-emerald-50 rounded-2xl p-8 lg:p-12">
+            <div className="relative bg-gradient-to-br from-yellow-200 to-emerald-50 rounded-2xl p-8 lg:p-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
                
                 {features.map((feature, index) => (
@@ -81,12 +81,12 @@ const KeyConcept = () => {
                     className="group cursor-pointer transition-all duration-300 hover:translate-x-2 relative z-10"
                   > 
                     <div className="space-y-3">
-                      <span className="text-green-900  text-sm font-medium tracking-wide transition-all duration-300 group-hover:text-blue-600 group-hover:scale-110 inline-block">
+                      <span className="text-yellow-900  text-sm font-medium tracking-wide transition-all duration-300 group-hover:text-blue-600 group-hover:scale-110 inline-block">
                         {feature.number}
                       </span>
                       <div className="transition-all duration-300 group-hover:translate-x-1">
                         <div className="relative">
-                          <h3 className="text-green-900 font-[Arial,Helvetica,sans-serif]  font-medium text-base leading-snug relative z-20 group-hover:text-black">
+                          <h3 className="text-yellow-900 font-[Arial,Helvetica,sans-serif]  font-medium text-base leading-snug relative z-20 group-hover:text-black">
                             {feature.title}
                           </h3>
                           {/* Enhanced Chat-style Popup for Subtitle */}
@@ -94,7 +94,7 @@ const KeyConcept = () => {
                             className="
                               absolute left-0 top-full mt-3 hidden group-hover:block
                               w-72 text-white text-sm rounded-xl p-1 shadow-2xl
-                              border border-green-900
+                              border border-yellow-900
                               z-50
                             "
                             style={{
@@ -104,14 +104,14 @@ const KeyConcept = () => {
                           >
                             <div
                               className="absolute -top-2 left-4 w-4 h-4 transform rotate-45
-                                bg-green-900 border-l border-t border-green-600 z-30"
+                                bg-yellow-900 border-l border-t border-yellow-600 z-30"
                             ></div>
 
-                            <div className="relative z-40 p-0 bg-green-900 rounded-xl">
+                            <div className="relative z-40 p-0 bg-yellow-900 rounded-xl">
                               <p className="leading-relaxed text-sm text-white">{feature.subtitle}</p>
                               <div
                                 className="flex justify-between items-center mt-0 pt-1
-                                  border-t border-green-500 text-xs text-green-200"
+                                  border-t border-yellow-500 text-xs text-yellow-200"
                               >
                                 <span>💬 Core Value</span>
                               </div>
@@ -213,7 +213,7 @@ export default KeyConcept
 //               Empowering Values for a Better Future
 //             </h1>
 //             {/* Features Grid */}
-//             <div className=" bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
+//             <div className=" bg-gradient-to-br from-yellow-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
 //               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
                
 //                 {features.map((feature, index) => (
@@ -234,7 +234,7 @@ export default KeyConcept
 //                             className="
 //                               absolute left-0 top-full mt-3 hidden group-hover:block
 //                               w-72 text-white text-sm rounded-xl p-1 shadow-2xl
-//                               border border-green-900
+//                               border border-yellow-900
 //                               z-50 isolate
 //                             "
 //                             style={{
@@ -245,14 +245,14 @@ export default KeyConcept
 //                           >
 //                             <div
 //                               className="absolute -top-2 left-4 w-4 h-4 transform rotate-45
-//                                 bg-green-900 border-l border-t border-green-600"
+//                                 bg-yellow-900 border-l border-t border-yellow-600"
 //                             ></div>
 
-//                             <div className="relative z-10 p-3 bg-green-900 rounded-xl">
+//                             <div className="relative z-10 p-3 bg-yellow-900 rounded-xl">
 //                               <p className="leading-relaxed text-sm text-white">{feature.subtitle}</p>
 //                               <div
 //                                 className="flex justify-between items-center mt-3 pt-2
-//                                   border-t border-green-500 text-xs text-green-200"
+//                                   border-t border-yellow-500 text-xs text-yellow-200"
 //                               >
 //                                 <span>💬 Core Value</span>
 //                               </div>
@@ -272,7 +272,7 @@ export default KeyConcept
 //         <div className="relative h-[400px] lg:h-auto overflow-hidden group">
 //           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105 ">
 //             <img
-//               src={'https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-green-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}
+//               src={'https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-yellow-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}
 //               alt="Modern living space with balcony featuring two people relaxing "
 //               fill
 //               className="object-cover object-center pr-11 border-r pt-5"
@@ -357,7 +357,7 @@ export default KeyConcept
 //               Empowering Values for a Better Future
 //             </h1>
 //             {/* Features Grid */}
-//             <div className=" bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
+//             <div className=" bg-gradient-to-br from-yellow-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
 //               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
                
 //                 {features.map((feature, index) => (
@@ -377,7 +377,7 @@ export default KeyConcept
 
 //           {/* Hover Popup for Subtitle */}
 //           <div className="absolute left-0 top-full mt-2 hidden w-64 group-hover:block z-20 
-//                           bg-green-900/80 text-white text-sm rounded-lg border border-green-400 
+//                           bg-yellow-900/80 text-white text-sm rounded-lg border border-yellow-400 
 //                           p-3 shadow-lg backdrop-blur-md transition-opacity duration-300">
 //             {feature.subtitle}
 //           </div>
@@ -395,7 +395,7 @@ export default KeyConcept
 //         <div className="relative h-[400px] lg:h-auto overflow-hidden group">
 //           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105 ">
 //             <img
-//               src={'https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-green-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}
+//               src={'https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-yellow-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}
 //               alt="Modern living space with balcony featuring two people relaxing "
 //               fill
 //               className="object-cover object-center pr-11 border-r pt-5"

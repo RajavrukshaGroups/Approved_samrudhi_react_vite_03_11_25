@@ -6,6 +6,7 @@ import Loader from "../../components/Loader/loader.jsx";
 import "../AboutPage/loading.css";
 import KeyConcept from "../../components/keyConcept/keyConcept.jsx";
 import NewHomepage from "../../components/home/homepage.jsx"
+import CoreValues from "../../components/new-Core-values/CoreValues.tsx";
 const Hero = React.lazy(() => import("../../components/hero/index.jsx"));
 const About = React.lazy(() => import("../../components/about/index.jsx"));
 const Container = React.lazy(() => import("../Status/status.jsx"));
@@ -32,7 +33,8 @@ const HomePage = () => {
         {/* <Hero/> */}
         <NewHomepage/>
         {/* <About text={""} readMore="read more" /> */}
-        <KeyConcept  />
+        <CoreValues  />
+        {/* <KeyConcept  /> */}
         {/* <Container /> */}
         <OngoingProjects />
         <ServiceSection />

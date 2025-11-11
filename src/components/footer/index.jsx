@@ -117,8 +117,8 @@ const Footer = () => {
                   <Phone className="w-5 h-5 text-footer-secondary" />
                 </div>
                 <div className="text-gray-800">
-                  <p className="text-white">+00 1234 5XXX 9012</p>
-                  <p className="text-white">+00 1234 5XXX 9013</p>
+                  <p className="text-white">+91 1234 533 9012</p>
+                  {/* <p className="text-white">+00 1234 5XXX 9013</p> */}
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">
@@ -131,12 +131,12 @@ const Footer = () => {
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">
-                <div className="w-10 h-10 rounded-full bg-footer-primary flex items-center justify-center flex-shrink-0">
+                {/* <div className="w-10 h-10 rounded-full bg-footer-primary flex items-center justify-center flex-shrink-0">
                   <Globe className="w-5 h-5 text-footer-secondary" />
-                </div>
-                <div className="text-gray-300">
+                </div> */}
+                {/* <div className="text-gray-300">
                   <p>website address here</p>
-                </div>
+                </div> */}
               </li>
             </ul>
           </div>
