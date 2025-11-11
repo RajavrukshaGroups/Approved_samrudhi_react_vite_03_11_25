@@ -6,7 +6,7 @@ export default function ContactCard() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-white to-emerald-100 flex items-center justify-center py-10 pt-72">
+      <div className="min-h-screen bg-gradient-to-br from-white to-emerald-100 flex items-center justify-center py-10 pt-52">
         <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 flex flex-col md:flex-row md:items-center md:justify-between max-w-5xl w-full mx-4 border border-gray-100">
           {/* Left Section: Headline & Form */}
           <div className="w-full md:w-1/2 md:pr-8">

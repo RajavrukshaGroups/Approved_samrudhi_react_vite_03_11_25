@@ -1,14 +1,24 @@
-import React, { useState } from "react";
 // import Backgour
+import React, { Fragment, Suspense, useEffect, useState } from "react";
+import "../../main-component/AboutPage/loading.css";
+
 import LocationIMg from "../../components/assets/locationimg.jpg";
 import Navbar from "../navbar/navbar.jsx";
 // import DHSimg from "../../components/assets/dhs_img.webp"
+import Loader from "../../components/Loader/loader.jsx";
 import DHSimg from "../../components/assets/dhsgemini.png"
 const LandingPage = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
 <>
+ <Suspense
+        fallback={
+          <div>
+            <Loader color="#C1933C" secondaryColor="#C1933C" logo={true} />{" "}
+          </div>
+        }
+      >
 <Navbar/>
     <div className="font-sans text-gray-800">
       {/* Navigation */}
@@ -371,6 +381,8 @@ const LandingPage = () => {
         </div>
       </footer>
     </div>
+          </Suspense>
+    
 </>
   );
 };

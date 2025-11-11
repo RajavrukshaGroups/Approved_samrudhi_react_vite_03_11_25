@@ -7,20 +7,23 @@ const projects = [
     id: 1,
     title: "Sylvan Retreat",
     image: "https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-green-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    route: "/sylvan-retreat"
+    route: "/sylvan-retreat",
+    logo:"http://rajavrukshagroup.in/static/media/Sylvan-official-logo.03abfc0da66b2119cfef.png"
   },
   {
     id: 2,
     title: "Aarika",
     image: "https://thesamrudhi.com/assets/project_one-CFfO-9Th.jpg",
     isSecondProject: true,
-    route: "/aarika-project"
+    route: "/aarika-project",
+    logo:"https://test.thesamrudhi.com/static/media/Aarika%20png.297c3c42750efb337424.png"
   },
   {
     id: 3,
     title: "DHS Projects",
     image: "https://images.pexels.com/photos/8134847/pexels-photo-8134847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    route: "/dhs-landingpage"
+    route: "/dhs-landingpage",
+    logo:"https://digitaleliteservices.in/assets/DHS.png"
   },
 ]
 
@@ -53,6 +56,7 @@ export default function ProjectsSection() {
                 title={project.title} 
                 image={project.image} 
                 isSecondProject={project.isSecondProject} 
+                logo={project.logo}
               />
             </div>
           ))}                                            
