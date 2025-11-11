@@ -16,8 +16,9 @@ function IntegratedTeam() {
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-600 mx-auto rounded-full"></div>
         </div>
 
-        {/* Content Cards */}
+        {/* Content Cards */} 
         <div className="space-y-2">
+          
           {/* Card 1 */}
           <div className="group bg-white rounded-2xl shadow-md border border-gray-200 p-8 transition-all duration-500 hover:shadow-2xl hover:border-emerald-400 hover:-translate-y-2">
             <div className="border-l-4 border-yellow-500 pl-6 transition-all duration-500 group-hover:border-l-8 group-hover:pl-8">
