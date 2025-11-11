@@ -34,10 +34,10 @@ export default function AlumniHero() {
         <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
           <span className="text-[#000000] md:text-[50px]">Shaping Communities</span><br />
           <span className="text-yellow-500 md:text-[50px]">Through Our Current</span><br />
-          <span className="text-[#054b16] md:text-[50px]">Projects</span>
+          <span className="text-yellow-500 md:text-[50px]">Projects</span>
         </h1>
 
-        <p className="text-green-900  text-1xl mb-6 max-w-xl">
+        <p className="text-yellow-500  text-1xl mb-6 max-w-xl">
           Samrudhi is dedicated to playing a pivotal role in building and nurturing sustainable communities
         </p>
       </div>

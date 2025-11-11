@@ -11,7 +11,7 @@ export default function ProjectCard({ title, image, isSecondProject = false }: P
     <div className="flex flex-col h-full">
       {/* Project Title with Green Underline */}
       <div className="mb-4">
-        <h3 className="text-xl font-bold text-black mb-2">{title}</h3>
+        <h3 className="text-xl font-[Arial,Helvetica,sans-serif] font-bold text-black mb-2">{title}</h3>
         <div className="w-12 h-1 bg-green-600 rounded-full"></div>
       </div>
       {/* Project Image Container */}

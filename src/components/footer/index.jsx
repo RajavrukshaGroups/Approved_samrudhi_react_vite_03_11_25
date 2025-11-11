@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Globe, Facebook, Twitter, Instagram, Linkedin } fr
 
 const Footer = () => {
   return (
-    <footer className="relative overflow-hidden bg-yellow-500 text-white ">
+    <footer className="relative h-[400px] overflow-hidden bg-yellow-600 text-white ">
       {/* Wave SVG Background */}
       <div className="absolute inset-0 pointer-events-none">
         <svg
@@ -121,17 +121,16 @@ const Footer = () => {
                   <MapPin className="w-5 h-5 text-footer-secondary" />
                 </div>
                 <div className="text-white">
-                  <p className="text-white">123 Dummy, Lorem Ipsum</p>
-                  <p>Sample Text</p>
+                  <p className="text-white">#35 A, Kowdi, 2nd Floor, 1st Main Road, Chiranjeevi Layout, Hebbal Kempapura, Bengaluru-560024</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <div className="w-10 h-10 rounded-full bg-footer-primary flex items-center justify-center flex-shrink-0">
                   <Phone className="w-5 h-5 text-footer-secondary" />
                 </div>
-                <div className="text-gray-300">
-                  <p>+00 1234 5XXX 9012</p>
-                  <p>+00 1234 5XXX 9013</p>
+                <div className="text-gray-800">
+                  <p className="text-white">+00 1234 5XXX 9012</p>
+                  <p className="text-white">+00 1234 5XXX 9013</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">
