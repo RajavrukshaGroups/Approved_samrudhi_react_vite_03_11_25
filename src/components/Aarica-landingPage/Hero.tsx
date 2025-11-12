@@ -17,6 +17,7 @@ const Hero = () => {
       className="w-32 sm:w-40 md:w-72 object-contain relative z-10 mb-10 flex justify-center"
     />
   {/* </div> */}
+  {/* North Bangalore , Doddaballapura */}
 
   {/* MAIN CONTENT */}
   <div className="relative z-10 max-w-6xl mx-auto animate-fade-in-up">

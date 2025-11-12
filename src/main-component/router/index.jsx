@@ -66,14 +66,6 @@ useEffect(() => {
   } else {
     setShowModal(false);
   }
-
-  // const timer = setTimeout(() => {
-  //   setLoading(false);
-  //   // Optional: Auto close after a few seconds
-  //   setShowModal(false);
-  // }, 30000);
-
-  // return () => clearTimeout(timer);
 }, [location.pathname]);
 
   return (

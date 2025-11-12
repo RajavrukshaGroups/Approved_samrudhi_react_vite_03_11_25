@@ -21,7 +21,6 @@ const OngoingProjects = React.lazy(() =>
 );
 
 const HomePage = () => {
-
   return (
     <>
       <Suspense
