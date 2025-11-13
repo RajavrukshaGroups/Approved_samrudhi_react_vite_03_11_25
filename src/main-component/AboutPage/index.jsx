@@ -20,8 +20,7 @@ const Footer = React.lazy(() => import("../../components/footer/index.jsx"));
 const aboutText = `
   At Samrudhi, we are driven by a vision: to create exceptional spaces that inspire, endure, and
 elevate the way people live and invest. We are committed to shaping inspired living through
-visionary developments and bespoke real estate solutions. 
-`;
+visionary developments and bespoke real estate solutions. `;
 
 const AboutPage = () => {
   useEffect(() => {
