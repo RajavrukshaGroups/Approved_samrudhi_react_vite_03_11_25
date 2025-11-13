@@ -52,7 +52,6 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-footer-primary">Quick Links</h3>
-           
             <ul className="space-y-3">
             {[
               { name: "Home", href: "/" },
@@ -73,19 +72,15 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-
-          </div>
-
+        </div>
           {/* Services */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-footer-primary">Services</h3>
             <ul className="space-y-3">
-
               {[
                 "Wednesday to Monday ",
                 "09:30 am : 06:30 pm ",
                 "Weekly Off : Tuesday"
-              
               ].map((service) => (
                 <li key={service}>
                   <Link

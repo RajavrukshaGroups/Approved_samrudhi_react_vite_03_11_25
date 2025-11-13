@@ -42,7 +42,7 @@ const RoutesWithLoader = () => {
   const [loading, setLoading] = useState(false);
   const location = useLocation();  
   const [showModal, setShowModal] = useState(false);
-
+                        
   // useEffect(() => {
   //   console.log("location", location.pathname);
   //   setLoading(true);
@@ -51,7 +51,7 @@ const RoutesWithLoader = () => {
   //   }, 3000); // Adjust delay to match your content loading time
   //   return () => clearTimeout(timer);
   // }, [location.pathname]);
-  
+                      
 useEffect(() => {
   console.log("Current path:", location.pathname);
   setLoading(true);
@@ -106,7 +106,7 @@ useEffect(() => {
                <Router>
                   <ScrollToTop />
                   <RoutesWithLoader />
-            </Router>
+                </Router>
           </div>
            </>
         );

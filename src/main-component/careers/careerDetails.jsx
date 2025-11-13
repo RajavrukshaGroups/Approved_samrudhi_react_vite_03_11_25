@@ -10,7 +10,6 @@ const Footer = React.lazy(() => import("../../components/footer/index.jsx"));
 const CareerForm = React.lazy(() =>
   import("../../components/careers/jobCareer.jsx")
 );
-
 const CareerDetails = () => {
   const { id } = useParams();
   const [careerDetails, setCareerDetails] = useState(null);

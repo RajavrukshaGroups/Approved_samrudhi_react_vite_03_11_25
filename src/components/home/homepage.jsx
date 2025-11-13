@@ -29,7 +29,7 @@ const HeroSection = () => {
     if (hasLoadedBefore) {
       setVideoLoaded(true); // Skip loader
     } else {
-      setFirstLoad(true); // First time load
+      setFirstLoad(true); // First time load   
     }
   }, []);
 

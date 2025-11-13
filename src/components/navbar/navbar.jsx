@@ -7,9 +7,7 @@ const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const isActive = (path) => currentPath === path;
-
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
