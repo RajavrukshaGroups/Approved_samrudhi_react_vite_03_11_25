@@ -38,7 +38,6 @@ const PageTitle = (props) => {
     }
   }, [props.bgImg1, props.bgImg2]);
   // Function to handle image switching
-
   return (
     <section
       className={props?.title ? "breadcrumb-new" : "breadcrumb-area"}
@@ -51,8 +50,6 @@ const PageTitle = (props) => {
         
       }}
     >
-      {/* Render buttons only if both bgImg1 and bgImg2 exist */}
-
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -84,7 +81,6 @@ const PageTitle = (props) => {
                   />
                 </div>
               ) : (
-             
                 <FadeContent
                 blur={true}
                 duration={1000}
@@ -117,9 +113,6 @@ const PageTitle = (props) => {
                 <h2 className="subtitle">
                   {props?.intSubtitle && props?.intSubtitle}
                 </h2>
-                {/* <h2 className="subtitle plumeria-sub">
-                  {props?.plumeriaSub && props?.plumeriaSub}
-                </h2> */}
               </FadeContent>
             </div>
           </div>

@@ -23,10 +23,7 @@ const CareerDetails = () => {
           // `https://servermain.rajavrukshagroup.in/getCareerIndDetails/${id}`
           `https://rajavruksha-server.rajavrukshagroup.in/getCareerIndDetails/${id}`
         );
-        // const response = await fetch(
-        //   `http://localhost:4000/getCareerIndDetails/${id}`
-        // );
-
+      
         if (!response.ok) {
           throw new Error("Failed to fetch career details");
         }

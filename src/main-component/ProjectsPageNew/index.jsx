@@ -1,6 +1,5 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import Header from "../../components/header/index.jsx";
-// import bg from "../../components/assets/new_project.webp";
 import bg from "../../components/assets/projects_images.jpg";
 import { Helmet } from "react-helmet";
 import { updateMetaTags } from "../../utils/updateMetaTags";
@@ -48,11 +47,6 @@ const ProjectPageNew = () => {
         />
         <meta property="og:url" content={ogUrl} />
 
-        {/* <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Rajavruksha Projects" />
-        <meta name="twitter:description" content="Explore Rajavruksha's top real estate and farmland projects." />
-        <meta name="twitter:image" content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png" /> */}
-     
       </Helmet>
       <Navabar />
       <Suspense
@@ -62,11 +56,8 @@ const ProjectPageNew = () => {
           </div>
         }
       >
-        {/* <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} /> */}
         <ProjectCardContainer />
-        {/* <ProjectIconic /> */}
         <ProjectList />
-        {/* <ProjectListNew /> */}
         <Footer />
       </Suspense>
     </Fragment>

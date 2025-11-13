@@ -29,12 +29,8 @@ const HomePage = () => {
             <Loader color="#C1933C" secondaryColor="#C1933C" logo={true} />{" "}
           </div>
         }>
-        {/* <Hero/> */}
         <NewHomepage/>
-        {/* <About text={""} readMore="read more" /> */}
         <CoreValues  />
-        {/* <KeyConcept  /> */}
-        {/* <Container /> */}
         <OngoingProjects />
         <ServiceSection />
         <Testimonial />

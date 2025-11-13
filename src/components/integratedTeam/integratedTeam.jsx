@@ -64,15 +64,6 @@ function IntegratedTeam() {
             </div>
           </div>
         </div>
-
-        {/* Bottom Decorative Element */}
-        {/* <div className="mt-16 flex justify-center">
-          <div className="flex space-x-2">
-            <div className="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></div>
-            <div className="w-3 h-3 bg-teal-500 rounded-full animate-pulse delay-100"></div>
-            <div className="w-3 h-3 bg-cyan-500 rounded-full animate-pulse delay-200"></div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

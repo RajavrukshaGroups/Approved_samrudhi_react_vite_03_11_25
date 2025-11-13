@@ -69,9 +69,6 @@ const CoreValues = () => {
           <h1 className="text-5xl font-[Arial,Helvetica,sans-serif] font-bold bg-yellow-400 bg-clip-text text-transparent mb-4">
           Empowering Values for a Better Future
           </h1>
-          {/* <h1 className="text-5xl font-bold bg-yellow-400 bg-clip-text text-transparent mb-4">
-            Our Core Values
-          </h1> */}
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             The principles that guide us in delivering excellence and building lasting relationships
           </p>
