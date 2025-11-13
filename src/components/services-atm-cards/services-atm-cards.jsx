@@ -11,9 +11,11 @@ const ServicesSection = () => {
       <div class="absolute inset-0 -z-10 bg-gradient-to-r from-green-100 to-emerald-300"></div>
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         {/* Headline */}
+        
         {/* <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
          Investor-Centric Approach
         </h2> */}
+
         <h2 className=" project-subtitle-keyConcept text-center font-light tracking-tight text-[#0e3b01] leading-tight text-5xl md:text-6xl lg:text-7xl mb-8">
             Investor-Centric Approach
           </h2>

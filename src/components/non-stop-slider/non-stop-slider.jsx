@@ -15,7 +15,7 @@ const marqueeItems = [
   </span>,
   "ECO-FRIENDLY",
   <span className="mx-6" key="bamboo2">
-    {/* Repeat Bamboo Icon SVG */}
+    {/* Repeat Bamboo Icon SVG */}   
     <svg width="40" height="40" viewBox="0 0 40 40" className="inline-block align-middle">
       <path d="M18 5 L18 35" stroke="#262626" strokeWidth="3" strokeLinecap="round"/>
       <path d="M22 5 L22 35" stroke="#262626" strokeWidth="3" strokeLinecap="round"/>
@@ -36,7 +36,7 @@ const marqueeItems = [
       <path d="M15 32 L25 32" stroke="#262626" strokeWidth="2" strokeLinecap="round"/>
     </svg>
   </span>,
-  "Tailored Investment Opportunities",
+  "Tailored Investment Opportunities",                                 
 ];
 
 export default function MarqueeBanner() {

@@ -19,7 +19,7 @@ const ContactUs = ({
     <div className="contact-page-new-area">
       <div className="containerss">
         <div className="row align-items-center">
-          <div className="col-lg-6 col-sm-6">
+          {/* <div className="col-lg-6 col-sm-6">
             <div className={!!page ? "eco-nest-contact" : "contact-new-form"}>
               <div className="site-new-heading" data-aos="fade-up">
                 <h2 className="sub-title">Get A Free Quote</h2>
@@ -28,21 +28,21 @@ const ContactUs = ({
                 <ContactForm status={status} />
               </div>
             </div>
-          </div>
+          </div> */}
           {!!projectTitle && (
-            <div className="col-lg-6 col-sm-6">
+            <div className="col-lg-6 col-sm-6 ">
               <div className="contact-image-container">
                 <img
                   src={SylMap}
                   alt="Contact"
-                  className="contact-image"
+                  className="contact-image items-center justify-center flex m-auto"
                   onContextMenu={disableContextMenu}
                 />
               </div>
             </div>
           )}
           {!!projectPlumeria && (
-            <div className="col-lg-6 col-sm-6">
+            <div className="col-lg-6 col-sm-6 flex m-auto justify-center items-center">
               <div className="contact-image-container">
                 <img
                   src={Plumeria}

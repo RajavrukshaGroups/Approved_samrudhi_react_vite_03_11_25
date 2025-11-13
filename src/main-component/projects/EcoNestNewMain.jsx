@@ -1,19 +1,11 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import Header from "../../components/header/index.jsx";
-// import PageTitle from "../../components/pagetitle/index.jsx";
 import bgImg1 from "../../components/assets/eco_nest_img.jpg";
 import bgImg2 from "../../components/assets/layer5.jpg";
-// import EcoNestNewHeading from "../../components/Projects/EcoNestNew/EcoNestNewHeading.jsx";
-// import EcoNestNewDesc from "../../components/Projects/EcoNestNew/EcoNestNewDesc.jsx";
 import layer1 from "../../components/assets/Layer1.jpg";
 import layer2 from "../../components/assets/Layer2.jpg";
 import layer3 from "../../components/assets/Layer3.jpg";
 import layer4 from "../../components/assets/Layer4.jpg";
-// import InfiniteMovingCards from "../../utils/plumeriaGallery/PlumeriaInfiniteGallary.jsx";
-// import EcoNewAmenities from "../../components/Projects/EcoNestNew/EcoNewAmenities.jsx";
-// import EcoNewGallery from "../../components/Projects/EcoNestNew/EcoNewGallery.jsx";
-// import EcoNewPageContact from "../../components/Projects/EcoNestNew/EcoNewContactPage.jsx";
-// import Footer from "../../components/footer/index.jsx";
 import "./ecoNestNew.css";
 import { updateMetaTags } from "../../utils/updateMetaTags";
 import { Helmet } from "react-helmet";
@@ -71,7 +63,6 @@ const EcoNestNewMain = () => {
         <meta name="description" content={description} />
         <meta property="og:title" content={ogTitle} />
         <meta property="og:description" content={ogDescription} />
-        
       </Helmet>
       <Header />
       <Suspense
@@ -103,5 +94,5 @@ const EcoNestNewMain = () => {
     </Fragment>
   );
 };
-
+0
 export default EcoNestNewMain;

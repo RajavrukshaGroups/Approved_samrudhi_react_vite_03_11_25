@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation.jsx";
-// import Image from "next/image";
-// import Image from '../assets/Sylan_retreat_new_Banner.jpg'
 import  Images from "../../components/assets/Sylan retreat_Banner1.webp"
 function HeroScrollDemo() {
   return (

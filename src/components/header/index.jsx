@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import MobileMenu from "../../components/MobileMenu/index.jsx";
 import { Link } from "react-router-dom";
-import Logo from "../../components/assets/Samrudhi.png";
+import Logo from "../../components/assets/assets/Samrudhi_Logo.png";
 import "./style.css";
 
 const Header = () => {
@@ -52,41 +52,7 @@ const Header = () => {
                     <li>
                       <Link to="/">Home</Link>
                     </li>
-                 
-                    {/* <li>
-                      <Link to="/projects">Projects</Link>
-                      <ul>
-                        <li>
-                          <Link to="/sylvan-retreat">Sylvan-Retreat</Link>
-                        </li>
-                      
-                        <li>
-                          <Link to="/plumeria">Plumeria</Link>
-                        </li>
-                      </ul>
-                    </li> */}
-
-                    {/* <li>
-                      <Link to="/careers">Career</Link>
-                      <ul>
-                        {careers.map((career) => {
-                          return (
-                            <li>
-                              <Link
-                                to={`/careerDetails/${career._id}`}
-                                className="text-uppercase"
-                              >
-                                {career?.shortTitle}
-                              </Link>{" "}
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </li> */}
-
-                    {/* <li>
-                      <Link to="/contact">Contact</Link>
-                    </li> */}
+                    
                   </ul>
                 </nav>
               </div>

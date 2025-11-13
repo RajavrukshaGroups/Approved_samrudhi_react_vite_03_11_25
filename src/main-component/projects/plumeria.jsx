@@ -57,7 +57,7 @@ const PlumeriaMain = () => {
     amenities: 1,
   });
 
-  useEffect(() => {
+  useEffect(                           () => {
     updateMetaTags({
       title,
       description,
@@ -113,39 +113,23 @@ const PlumeriaMain = () => {
           </div>
         }
       >
-        {/* <PageTitle
-          pagesub={"Project Details"}
-          pageImg={bg}
-          PageTitle="Plumeria"
-          plumeriaSub="community where life blossoms"
-          bgImg1={bgImg1}
-          bgImg2={bgImg2}
-        /> */}
+ 
         <Hero/>
         <Facilities/>
         <ProjectHighlights/>
         <NearByDevelopments/>
         <div>
-          {/* <h1 className="project-name">
-            <FadeContent
-              blur={true}
-              duration={1000}
-              easing="ease-out"
-              initialOpacity={0}
-              >
-              MILESTONES WE ARE PROUD OF
-            </FadeContent>
-          </h1> */}
+        
            <FadeContent
         blur={true}
         duration={900}
         easing="ease-out"
         initialOpacity={0} >
         {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
-     <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-  <span className="text-[#4C392C] md:text-[50px]">MILESTONES WE </span>{' '}
-  <span className="text-[#8B5E3C] md:text-[50px]">ARE PROUD OF</span>
-</h2>
+            <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+              <span className="text-[#4C392C] md:text-[50px]">MILESTONES WE </span>{' '}
+              <span className="text-[#8B5E3C] md:text-[50px]">ARE PROUD OF</span>
+            </h2>
 
       </FadeContent>
         </div>
@@ -174,19 +158,8 @@ const PlumeriaMain = () => {
             );
           })}
         </div>
-
-
         <div>
-          {/* <h1 className="project-name">
-            <FadeContent
-              blur={true}
-              duration={1000}
-              easing="ease-out"
-              initialOpacity={0}
-            >
-               Premium Plots
-            </FadeContent>
-          </h1> */}
+       
 
            <FadeContent
         blur={true}
@@ -195,9 +168,9 @@ const PlumeriaMain = () => {
         initialOpacity={0} >
         {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
      <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-  <span className="text-[#4C392C] md:text-[50px]">Exclusive </span>{' '}
-  <span className="text-[#8B5E3C] md:text-[50px]">Premium Plots</span>
-</h2>
+        <span className="text-[#4C392C] md:text-[50px]">Exclusive </span>{' '}
+        <span className="text-[#8B5E3C] md:text-[50px]">Premium Plots</span>
+      </h2>
 
       </FadeContent>
         </div>

@@ -6,6 +6,7 @@ import Loader from "../../components/Loader/loader.jsx";
 import "../AboutPage/loading.css";
 import KeyConcept from "../../components/keyConcept/keyConcept.jsx";
 import NewHomepage from "../../components/home/homepage.jsx"
+import CoreValues from "../../components/new-Core-values/CoreValues.tsx";
 const Hero = React.lazy(() => import("../../components/hero/index.jsx"));
 const About = React.lazy(() => import("../../components/about/index.jsx"));
 const Container = React.lazy(() => import("../Status/status.jsx"));
@@ -20,7 +21,6 @@ const OngoingProjects = React.lazy(() =>
 );
 
 const HomePage = () => {
-
   return (
     <>
       <Suspense
@@ -29,11 +29,8 @@ const HomePage = () => {
             <Loader color="#C1933C" secondaryColor="#C1933C" logo={true} />{" "}
           </div>
         }>
-        {/* <Hero/> */}
         <NewHomepage/>
-        {/* <About text={""} readMore="read more" /> */}
-        <KeyConcept  />
-        {/* <Container /> */}
+        <CoreValues  />
         <OngoingProjects />
         <ServiceSection />
         <Testimonial />
