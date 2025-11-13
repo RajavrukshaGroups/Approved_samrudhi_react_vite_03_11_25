@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import AllRoute from '../router/index.jsx';
 import AOS from 'aos';
 import { ToastContainer } from 'react-toastify';
-// import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import 'aos/dist/aos.css';
 import './App.css';
 import '../../index.css';
@@ -20,7 +19,6 @@ const App = () => {
             <div className="toast-wrapper">
                 <ToastContainer/>
             </div>
-               
                 <AllRoute />
         </div>
     );

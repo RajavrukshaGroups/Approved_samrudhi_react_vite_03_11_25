@@ -19,8 +19,6 @@ import PlumeriaMain from "../../main-component/projects/plumeria.jsx"
 import Econest from "../projects/eco-nest.jsx";
 import JourneySection from "../../components/reactIcons/journeySection.jsx";
 import Status from "../Status/status.jsx";
-import Amenities from "../../components/Amenities/amenities.jsx";
-// import BdeCareerMain from "../careers/bdeCareer.jsx";
 import BdeInternCareerMain from "../careers/bdeInternCareer.jsx";
 import ScrollToTop from "../../utils/utils.jsx";
 import MainPrivacyPolicy from "../PrivacyPolicy/index.jsx";
@@ -66,27 +64,14 @@ useEffect(() => {
   } else {
     setShowModal(false);
   }
-
-  // const timer = setTimeout(() => {
-  //   setLoading(false);
-  //   // Optional: Auto close after a few seconds
-  //   setShowModal(false);
-  // }, 30000);
-
-  // return () => clearTimeout(timer);
 }, [location.pathname]);
 
   return (
     <>
-      {/* {loading && (
-        <Loader logo={true} color="#C1933C" secondaryColor="#C1933C" />
-      )} */}                  
       <Routes>
-        {/* <Route path="/toatify" element={<ToastContainer />} /> */}
         <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
-        {/* <Route path="/projects" element={<ProjectPage />} /> */}
         <Route path="/projects" element={<ProjectPageNew />} />
         <Route path="/projects-single" element={<ProjectSinglePage />} />
         <Route path="/service" element={<ServicePage />} />
@@ -95,18 +80,13 @@ useEffect(() => {
         <Route path="/experienceSection" element={<ExperienceSection />} />
         <Route path="/careers" element={<CareerMainFooterComp />} />
         <Route path="/careerDetails/:id" element={<CareerDetails />} />
-        {/* <Route path="/sylvan-retreat" element={<SylvanRetreat />} /> */}
         <Route path="/sylvan-retreat" element={<SylvanRetreatNew/>} />
-        {/* <Route path="/eco-nest" element={<Econest />} /> */}
-        {/* <Route path="/eco-nest" element={<EcoNestNewMain />} /> */}
         <Route path="/aarika-project" element={<PlumeriaMain />} />
         <Route path="/journeySection" element={<JourneySection />} />
         <Route path="/status" element={<Status />} />
-        {/* <Route path="/amenities" element={<Amenities />} /> */}
         <Route path="/privacyPolicy" element={<MainPrivacyPolicy />} />
         <Route path="/aceternity" element={<HeroScrollDemo />} />
         <Route path="/dhs-landingpage" element={<DhsLandingPage />} />
-        {/* <Route path="/samrudhi-aboutus" element={<SamrudhiAboutUs />} /> */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
         <CelebrationModal

@@ -3,7 +3,6 @@ import CountUp from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-// import AboutImg from "../../components/assets/about-1.e32a7109.webp";
 import AboutImg from "../../components/assets/homeforsamrudhi.jpg";
 import AboutBgImg from "../../components/assets/about-bg-home-page.png";
 import "./style.css";
@@ -35,49 +34,7 @@ const About = ({ text, readMore }) => {
       }} >
       <div className="container ">
         <div className="row align-items-center">
-          {/* <div className="col-lg-5 col-md-6"> */}
-            {/* <div
-              className="about-left"
-              data-aos="fade-right"
-              data-aos-offset="100"
-            > */}
-              {/* <div className="site-heading">
-                <FadeContent
-                  blur={true}
-                  duration={1000}
-                  easing="ease-out"
-                  initialOpacity={0}
-                >
-                  <h2 className="explore-title text-capitalize ">
-                    We strive to uncover the perfect choice for you
-                  </h2>
-                </FadeContent>
-                <div>
-                  <p>{text}</p>
-                </div>
-              </div> */}
-              {/* <div
-                className="content"
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                }}
-              >
-              </div> */}
-            {/* </div> */}
-          {/* </div> */}
-          {/* <div className="col-lg-6 offset-lg-1 col-md-6">
-            <div className="about-counter"></div>
-            <div
-              className="about-right"
-              data-aos="fade-left"
-              data-aos-offset="100"
-              onContextMenu={disableContextMenu}
-            >
-              <img style={{width:'400px'}} className="about_img_2" src={AboutUsImageModern} alt="img" />
-            </div>
-          </div> */}
+     
           <div className="row">
             <div className="col-lg-6 col-md-12 vision-new">
               <div

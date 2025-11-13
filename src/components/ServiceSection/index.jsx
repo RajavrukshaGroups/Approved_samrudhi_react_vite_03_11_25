@@ -10,11 +10,11 @@ const services = [
     title: "Land Procurement",
     description: "Identifying and acquiring strategically located plots for development",
     icon: Search,
-    color: "green",
-    bgGradient: "from-green-400 to-green-600",
-    shadowColor: "shadow-green-500/30",
-    ringColor: "ring-green-400/20",
-    cardGradient: "from-green-200 to-emerald-50",
+    color: "yellow",
+    bgGradient: "from-yellow-400 to-yellow-600",
+    shadowColor: "shadow-yellow-500/30",
+    ringColor: "ring-yellow-400/20",
+    cardGradient: "from-yellow-200 to-green-50",
     features: [
       "Strategic location analysis",
       "Land acquisition expertise",
@@ -27,11 +27,11 @@ const services = [
     title: "Project Planning & Execution",
     description: "From conceptualization to completion, managing all phases of residential layout development",
     icon: Users,
-    color: "emerald",
-    bgGradient: "from-emerald-400 to-emerald-600",
-    shadowColor: "shadow-emerald-500/30",
-    ringColor: "ring-emerald-400/20",
-    cardGradient: "from-emerald-200 to-teal-50",
+    color: "yellow",
+    bgGradient: "from-yellow-400 to-yellow-600",
+    shadowColor: "shadow-yellow-600/30",
+    ringColor: "ring-yellow-400/20",
+    cardGradient: "from-yellow-200 to-teal-50",
     features: [
       "Comprehensive project planning",
       "Quality construction management",
@@ -44,11 +44,11 @@ const services = [
     title: "Legal Documentation",
     description: "Ensuring all necessary legal processes and documentation are meticulously handled",
     icon: TrendingUp,
-    color: "teal",
-    bgGradient: "from-teal-400 to-teal-600",
-    shadowColor: "shadow-teal-500/30",
-    ringColor: "ring-teal-400/20",
-    cardGradient: "from-teal-200 to-cyan-50",
+    color: "yellow",
+    bgGradient: "from-yellow-400 to-yellow-600",
+    shadowColor: "shadow-yellow-500/30",
+    ringColor: "ring-yellow-400/20",
+    cardGradient: "from-yellow-200 to-cyan-50",
     features: [
       "Legal compliance assurance",
       "Document verification",
@@ -62,10 +62,10 @@ const services = [
     description: "Developing and implementing effective marketing strategies to promote our projects and facilitate sales",
     icon: Lightbulb,
     color: "cyan",
-    bgGradient: "from-cyan-400 to-cyan-600",
-    shadowColor: "shadow-cyan-500/30",
-    ringColor: "ring-cyan-400/20",
-    cardGradient: "from-cyan-200 to-blue-50",
+    bgGradient: "from-yellow-400 to-yellow-600",
+    shadowColor: "shadow-yellow-500/30",
+    ringColor: "ring-yellow-400/20",
+    cardGradient: "from-yellow-200 to-blue-50",
     features: [
       "Strategic marketing campaigns",
       "Sales facilitation",
@@ -106,9 +106,9 @@ export default function ServiceSection() {
         initialOpacity={0} >
         {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
      <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-  <span className="text-[#000000] md:text-[50px]">Our</span>{' '}
-  <span className="text-[#fde047] md:text-[50px]">Services</span>
-</h2>
+        <span className="text-[#000000] md:text-[50px]">Our</span>{' '}
+        <span className="text-[#fde047] md:text-[50px]">Services</span>
+      </h2>
 
       </FadeContent>
      
@@ -120,11 +120,11 @@ export default function ServiceSection() {
               key={service.id}
               className={`group relative transition-all duration-700 delay-${index * 150} ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              }`}   
             >
               {/* Main Card */}
               <div
-               className={`relative bg-gradient-to-br ${service.cardGradient} rounded-2xl p-6 border border-green-400 shadow-md hover:shadow-green-400/30 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 backdrop-blur-sm h-full flex flex-col`}
+               className={`relative bg-gradient-to-br ${service.cardGradient} rounded-2xl p-6 border border-yellow-400 shadow-md hover:shadow-yellow-400/30 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 backdrop-blur-sm h-full flex flex-col`}
               >
                 {/* Header with Icon and Title */}
                 <div className="flex items-start justify-between mb-4">
@@ -367,11 +367,11 @@ export default function ServiceSection() {
 //               key={step.id}
 //               className={`
 //                 group relative flex flex-col items-center p-8 rounded-2xl border-2 transition-all cursor-pointer
-//                 bg-gradient-to-br from-green-50 via-white to-green-100
-//                 hover:from-green-100 hover:via-green-50 hover:to-green-200
+//                 bg-gradient-to-br from-yellow-50 via-white to-yellow-100
+//                 hover:from-yellow-100 hover:via-yellow-50 hover:to-yellow-200
 //                 shadow-[0_8px_32px_rgba(52,199,89,0.15)] 
-//                 ${checkedCards[idx] ? "border-green-500 shadow-green-300/40 scale-105" : "border-gray-200"}
-//                 hover:border-green-400 hover:shadow-green-200/30
+//                 ${checkedCards[idx] ? "border-yellow-500 shadow-yellow-300/40 scale-105" : "border-gray-200"}
+//                 hover:border-yellow-400 hover:shadow-yellow-200/30
 //                 duration-300
 //               `}
 //             >
@@ -380,15 +380,15 @@ export default function ServiceSection() {
 //                 type="checkbox"
 //                 checked={checkedCards[idx]}
 //                 onChange={() => handleCheckbox(idx)}
-//                 className="absolute right-4 top-4 w-5 h-5 accent-green-500 rounded-full border-2 border-green-400 shadow-green-100 shadow focus:ring-2 focus:ring-green-300 outline-none"
+//                 className="absolute right-4 top-4 w-5 h-5 accent-yellow-500 rounded-full border-2 border-yellow-400 shadow-yellow-100 shadow focus:ring-2 focus:ring-yellow-300 outline-none"
 //               />
 //               {/* Badge */}
 //               <div className={`px-4 py-1.5 rounded-md bg-gradient-to-r ${step.bgGradient} text-white font-bold text-sm tracking-wider shadow-lg mb-4 mt-2`}>
 //                 {step.id}
 //               </div>
 //               {/* Icon */}
-//               <div className="flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-3 border-4 border-green-200 group-hover:border-green-300 transition-all duration-300">
-//                 <step.icon className="w-10 h-10 text-green-600 group-hover:scale-110 transition-transform duration-300" strokeWidth={1.5} />
+//               <div className="flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-3 border-4 border-yellow-200 group-hover:border-yellow-300 transition-all duration-300">
+//                 <step.icon className="w-10 h-10 text-yellow-600 group-hover:scale-110 transition-transform duration-300" strokeWidth={1.5} />
 //               </div>
 //               <h3 className="mt-2 font-semibold text-lg text-gray-800 text-center">{step.title}</h3>
 //               <p className="mt-2 text-base text-gray-600 text-center leading-relaxed">
