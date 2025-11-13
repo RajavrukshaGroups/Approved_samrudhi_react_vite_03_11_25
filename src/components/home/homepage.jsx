@@ -37,7 +37,6 @@ const HeroSection = () => {
   useEffect(() => {
     const showDuration = 3000;
     const fadeDuration = 400;
-
     const timer = setTimeout(() => {
       setFade(false);
       setTimeout(() => {
@@ -48,7 +47,6 @@ const HeroSection = () => {
 
     return () => clearTimeout(timer);
   }, [visibleTitle]);
-
   // ✅ Fallback loader timeout (3 sec max)
   useEffect(() => {
     if (firstLoad) {
