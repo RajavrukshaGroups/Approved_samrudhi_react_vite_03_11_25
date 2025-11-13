@@ -57,7 +57,7 @@ const OngoingProjects = () => {
             {/* <p className="project-description">
               Farmland is not just a dream; it's a sound financial investment
               with growing demand in the market.
-            </p> */}
+            </p> */}              
             <p className="project-description">
               Farmland is not just a dream; <br />
               it's a sound financial investment <br />
@@ -120,14 +120,14 @@ const OngoingProjects = () => {
          <div className="project-card">
           {/* <div className="project-image-container">
             <img src={PlumeriaImg} alt="Plumeria" className="project-image" />
-          </div> */}
+          </div> */}                     
           <div className="flex flex-col overflow-hidden">
             <ContainerScroll
               titleComponent={
                 <>
                   {/* <h1 className="project-subtitle text-4xl font-semibold text-black dark:text-white">
                     Sylvan Retreat
-                  </h1> */}
+                  </h1> */}                              
                 </>
               }
             >

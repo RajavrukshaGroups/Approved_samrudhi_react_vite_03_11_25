@@ -12,7 +12,7 @@ const App = () => {
             offset: 100,
             duration: 1000,
         });
-    }, []);
+    },[]);
 
     return (
         <div className="App body_wrap">

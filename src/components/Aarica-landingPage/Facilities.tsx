@@ -21,16 +21,7 @@ const Facilities = () => {
     <section className="py-3 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-secondary/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in-up">
-          {/* <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground ">
-            Premium <span className="text-primary bg-[#4C392C]">Facilities</span>
-          </h2> */}
-          {/* <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground ">
-                <span className="text-[#4C392C]">Premium</span> <span className="text-[#8F5D38]">Facilities</span>
-            </h2> */}                 
-          {/* <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-              <span className="text-[#4C392C] md:text-[50px]">Premium</span>{' '}
-              <span className="text-[#8F5D38] md:text-[50px]">Facilities</span>
-          </h1> */}                          
+                            
           <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-[#5C4033]">
             <span className="text-[#4C392C] md:text-[50px] font-semibold">Premium</span>{' '}
             <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Facilities</span>
@@ -50,13 +41,10 @@ const Facilities = () => {
               <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-primary/10">
                 <facility.icon className="w-8 h-8 text-primary" />
               </div>
-              {/* <h3 className=" font-semibold bg-slate-300 text-foreground text-sm sm:text-base">
-                {facility.title}
-              </h3> */}
+             
               <h3 className="font-semibold  text-foreground text-sm sm:text-base font-[Arial,Helvetica,sans-serif]">
-  {facility.title}
-</h3>
-
+                {facility.title}
+              </h3>
             </Card>
           ))}
         </div>

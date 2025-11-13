@@ -118,15 +118,6 @@ export default function Testimonials() {
               } p-8 backdrop-blur-sm`}
             >
               {/* Avatar */}
-              {/* <div className="absolute -top-10 left-8">
-                <div className="h-20 w-20 overflow-hidden rounded-full border-4 border-white/30 bg-gray-600">
-                  <img
-                    src={testimonial.image || "/placeholder.svg"}
-                    alt={testimonial.name}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              </div> */}
 
               {/* Content */}
               <div className="mt-12 flex flex-1 flex-col">

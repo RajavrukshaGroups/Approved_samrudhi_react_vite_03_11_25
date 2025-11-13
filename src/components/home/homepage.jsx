@@ -34,6 +34,7 @@ const HeroSection = () => {
   }, []);
 
   // ✅ Title animation
+  
   useEffect(() => {
     const showDuration = 3000;
     const fadeDuration = 400;
@@ -47,6 +48,7 @@ const HeroSection = () => {
 
     return () => clearTimeout(timer);
   }, [visibleTitle]);
+
   // ✅ Fallback loader timeout (3 sec max)
   useEffect(() => {
     if (firstLoad) {
@@ -132,5 +134,15 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
+
+
+
+
+
+
+
+
 
 

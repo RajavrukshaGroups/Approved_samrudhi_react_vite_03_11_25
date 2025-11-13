@@ -20,7 +20,6 @@ TagManager.initialize(tagManagerArgs);
 // Get the root element from the DOM
 const container = document.getElementById("root");
 const root = createRoot(container); // Create a root
-
 // Now you can call root.render
 root.render(
   <App />
