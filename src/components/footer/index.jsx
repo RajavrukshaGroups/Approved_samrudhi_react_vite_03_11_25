@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Globe, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Globe,
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -24,10 +33,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-footer-primary">YOUR NAME</h3>
+            <h3 className="text-2xl font-bold text-footer-primary">
+              YOUR NAME
+            </h3>
             <p className="text-sm text-white leading-relaxed">
-            We guide you in selecting the best property
-            that aligns with your vision and goals
+              We guide you in selecting the best property that aligns with your
+              vision and goals
             </p>
             {/* Social Media Icons */}
             <div className="flex gap-3 pt-4">
@@ -51,41 +62,40 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-footer-primary">Quick Links</h3>
-           
-            <ul className="space-y-3">
-            {[
-              { name: "Home", href: "/" },
-              { name: "About Us", href: "/about" },
-              // { name: "Services", href: "/services" },
-              { name: "Projects", href: "/projects" },
-              // { name: "Blog", href: "/blog" },
-              { name: "Contact", href: "/contact" },
-            ].map((link) => (
-              <li key={link.name}>
-                <Link
-                  to={link.href}
-                  className="text-white hover:text-footer-primary transition-colors duration-300 text-sm flex items-center gap-2 group"
-                >
-                  <span className="w-0 h-0.5 bg-footer-primary group-hover:w-4 transition-all duration-300" />
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+            <h3 className="text-xl font-bold text-footer-primary">
+              Quick Links
+            </h3>
 
+            <ul className="space-y-3">
+              {[
+                { name: "Home", href: "/" },
+                { name: "About Us", href: "/about" },
+                // { name: "Services", href: "/services" },
+                { name: "Projects", href: "/projects" },
+                // { name: "Blog", href: "/blog" },
+                { name: "Contact", href: "/contact" },
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-white hover:text-footer-primary transition-colors duration-300 text-sm flex items-center gap-2 group"
+                  >
+                    <span className="w-0 h-0.5 bg-footer-primary group-hover:w-4 transition-all duration-300" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Services */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-footer-primary">Services</h3>
             <ul className="space-y-3">
-
               {[
-                "Wednesday to Monday ",
+                "Monday to Saturday ",
                 "09:30 am : 06:30 pm ",
-                "Weekly Off : Tuesday"
-              
+                "Weekly Off : Sunday",
               ].map((service) => (
                 <li key={service}>
                   <Link
@@ -102,14 +112,19 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-footer-primary">Contact Info</h3>
+            <h3 className="text-xl font-bold text-footer-primary">
+              Contact Info
+            </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm">
                 <div className="w-10 h-10 rounded-full bg-footer-primary flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin className="w-5 h-5 text-footer-secondary" />
                 </div>
                 <div className="text-white">
-                  <p className="text-white">#35 A, Kowdi, 2nd Floor, 1st Main Road, Chiranjeevi Layout, Hebbal Kempapura, Bengaluru-560024</p>
+                  <p className="text-white">
+                    Behind Swathi Gardenia Restaurant, E Block, Sahakar Nagar,
+                    Bangalore - 560092
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">
@@ -117,7 +132,7 @@ const Footer = () => {
                   <Phone className="w-5 h-5 text-footer-secondary" />
                 </div>
                 <div className="text-gray-800">
-                  <p className="text-white">+91 1234 533 9012</p>
+                  <p className="text-white">9945242861</p>
                   {/* <p className="text-white">+00 1234 5XXX 9013</p> */}
                 </div>
               </li>
@@ -130,8 +145,7 @@ const Footer = () => {
                   {/* <p>your email space 02</p> */}
                 </div>
               </li>
-              <li className="flex items-start gap-3 text-sm">
-              </li>
+              <li className="flex items-start gap-3 text-sm"></li>
             </ul>
           </div>
         </div>
@@ -143,13 +157,22 @@ const Footer = () => {
               © {new Date().getFullYear()} thesamrudhi. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
-              <Link to="#" className="hover:text-footer-primary transition-colors">
+              <Link
+                to="#"
+                className="hover:text-footer-primary transition-colors"
+              >
                 Privacy Policy
               </Link>
-              <Link to="#" className="hover:text-footer-primary transition-colors">
+              <Link
+                to="#"
+                className="hover:text-footer-primary transition-colors"
+              >
                 Terms of Service
               </Link>
-              <Link to="#" className="hover:text-footer-primary transition-colors">
+              <Link
+                to="#"
+                className="hover:text-footer-primary transition-colors"
+              >
                 Cookie Policy
               </Link>
             </div>

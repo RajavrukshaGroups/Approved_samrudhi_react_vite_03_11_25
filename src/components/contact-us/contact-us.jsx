@@ -1,6 +1,12 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock, FaArrowRight } from 'react-icons/fa';
-import Navbar from '../navbar/navbar.jsx';
-import Footer from '../../components/footer/index.jsx';
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaClock,
+  FaArrowRight,
+} from "react-icons/fa";
+import Navbar from "../navbar/navbar.jsx";
+import Footer from "../../components/footer/index.jsx";
 
 export default function ContactCard() {
   return (
@@ -10,17 +16,21 @@ export default function ContactCard() {
         <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 flex flex-col md:flex-row md:items-center md:justify-between max-w-5xl w-full mx-4 border border-gray-100">
           <div className="w-full md:w-1/2 md:pr-8">
             <div className="mb-8">
-              
               <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-                <span className="text-[#000000] md:text-[40px]">We’re here to help you</span>{' '}
-                <span className="text-yellow-500 md:text-[40px]">make the right choice</span>
+                <span className="text-[#000000] md:text-[40px]">
+                  We’re here to help you
+                </span>{" "}
+                <span className="text-yellow-500 md:text-[40px]">
+                  make the right choice
+                </span>
               </h2>
 
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                Fill out the form below and our team will get back to you as soon as possible.
+                Fill out the form below and our team will get back to you as
+                soon as possible.
               </p>
             </div>
-            
+
             <form className="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-200 flex flex-col gap-5 w-full">
               <div className="space-y-4">
                 <input
@@ -62,9 +72,12 @@ export default function ContactCard() {
                   <FaMapMarkerAlt className="text-gray-700 text-lg" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">OUR HUB</p>
+                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">
+                    OUR HUB
+                  </p>
                   <p className="text-gray-800 text-sm font-medium">
-                    Bengaluru, CA 90210
+                    Behind Swathi Gardenia Restaurant, E Block, Sahakar Nagar,
+                    Bangalore - 560092
                   </p>
                 </div>
               </div>
@@ -75,9 +88,11 @@ export default function ContactCard() {
                   <FaPhoneAlt className="text-gray-700 text-lg" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">CALL US</p>
+                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">
+                    CALL US
+                  </p>
                   <p className="text-gray-800 text-sm font-medium">
-                    +1 (555) (326-7658)
+                    9945242861
                   </p>
                 </div>
               </div>
@@ -88,7 +103,9 @@ export default function ContactCard() {
                   <FaEnvelope className="text-gray-700 text-lg" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">EMAIL US</p>
+                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">
+                    EMAIL US
+                  </p>
                   <p className="text-gray-800 text-sm font-medium">
                     samrudhi@gmail.com
                   </p>
@@ -101,16 +118,14 @@ export default function ContactCard() {
                   <div className="bg-gray-100 rounded-lg p-2">
                     <FaClock className="text-gray-700" />
                   </div>
-                  <h3 className="text-gray-800 font-semibold text-sm font-[Arial,Helvetica,sans-serif]">OPERATING HOURS</h3>
+                  <h3 className="text-gray-800 font-semibold text-sm font-[Arial,Helvetica,sans-serif]">
+                    OPERATING HOURS
+                  </h3>
                 </div>
                 <div className="text-gray-600 text-sm space-y-1">
                   <div className="flex justify-between">
-                    <span>Monday - Friday:</span>
-                    <span className="font-medium">9:00 AM - 5:00 PM EST</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday:</span>
-                    <span className="font-medium">10:00 AM - 2:00 PM EST</span>
+                    <span>Monday - Saturday:</span>
+                    <span className="font-medium">9:30 AM - 6:30 PM</span>
                   </div>
                   <div className="flex justify-between text-gray-500">
                     <span>Sunday:</span>
