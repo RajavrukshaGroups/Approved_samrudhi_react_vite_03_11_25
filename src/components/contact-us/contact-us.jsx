@@ -107,7 +107,7 @@ export default function ContactCard() {
                     EMAIL US
                   </p>
                   <p className="text-gray-800 text-sm font-medium">
-                    samrudhi@gmail.com
+                    info@thesamrudhi.com
                   </p>
                 </div>
               </div>
