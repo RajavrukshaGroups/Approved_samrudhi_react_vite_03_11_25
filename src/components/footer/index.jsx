@@ -141,7 +141,7 @@ const Footer = () => {
                   <Mail className="w-5 h-5 text-footer-secondary" />
                 </div>
                 <div className="text-white">
-                  <p className="text-white">samrudhi@gmail.com</p>
+                  <p className="text-white">info@thesamrudhi.com</p>
                   {/* <p>your email space 02</p> */}
                 </div>
               </li>
