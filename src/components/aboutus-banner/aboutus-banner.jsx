@@ -57,15 +57,15 @@ export default function AboutUsSection() {
               variants={itemVariants}
               className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-light leading-tight"
             >
-              <span className="text-foreground text-6xl font-[Arial,Helvetica,sans-serif]">We strive to uncover the </span>
-              <span className="font-[Arial,Helvetica,sans-serif] text-6xl bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
+              <span className=" text-6xl text-[#1F4E8C] font-[Arial,Helvetica,sans-serif]">We strive to uncover the </span>
+              <span className="font-[Arial,Helvetica,sans-serif] text-6xl bg-gradient-to-r from-[#C9A227] via-[#E6C34A] to-[#C9A227] bg-clip-text text-transparent">
                 perfect choice for you
               </span>
             </motion.h2>
 
-            <motion.p variants={itemVariants} className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+            <motion.p variants={itemVariants} className=" text-lg md:text-xl leading-relaxed">
 
-              At <span className="font-semibold text-foreground">Samrudhi</span>, we are driven by a vision: to create
+              At <span className="font-semibold text-[#1F4E8C] ">Samrudhi</span>, we are driven by a vision: to create
               exceptional spaces that inspire, endure, and elevate the way people live and invest. We are committed to
               shaping inspired living through visionary developments and bespoke real estate solutions.
 
@@ -73,11 +73,11 @@ export default function AboutUsSection() {
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4 pt-4">
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-                <Leaf className="w-5 h-5 text-primary" />
+                <Leaf className="w-5 h-5  text-[#1F4E8C]" />
                 <span className="text-sm font-medium text-foreground">Nature-Inspired</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20">
-                <Award className="w-5 h-5 text-accent-foreground" />
+                <Award className="w-5 h-5  text-[#C9A227]" />
                 <span className="text-sm font-medium text-foreground">Premium Quality</span>
               </div>
             </motion.div>

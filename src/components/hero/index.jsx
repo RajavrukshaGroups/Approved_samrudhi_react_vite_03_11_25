@@ -10,7 +10,8 @@ import hero2 from "../../img/slider-2.png";
 import field from "../../components/assets/field.jpg";
 import Container from "../../main-component/Status/status.jsx";
 import HomePageImg from "../../components/assets/home_page_imp.webp";
-import HeroVideo from "../../components/assets/banner_video.mp4"
+//import HeroVideo from "../../components/assets/banner_video.mp4"
+import HeroBgVideo from "../../components/assets/hero-bg-video.mp4"
 
 import "./style.css";
 class Hero extends Component {
@@ -66,7 +67,7 @@ class Hero extends Component {
                   zIndex: "-1",
                 }}
               >
-                <source src={HeroVideo} type="video/mp4" />
+                <source src={HeroBgVideo} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div
@@ -122,7 +123,7 @@ class Hero extends Component {
                   zIndex: "-1",
                 }}
               >
-                <source src={HeroVideo} type="video/mp4" />
+                <source src={HeroBgVideo} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div

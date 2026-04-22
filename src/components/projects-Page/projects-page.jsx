@@ -77,7 +77,7 @@ export default function ProjectPage() {
             <div className="mb-2 font-semibold text-lg text-white">Need Help?</div>
             <div className="mb-4 text-xl font-bold text-white">+91 123-4568-90</div>
             <div className="mb-5 text-2xl font-semibold text-white text-center">We Provide Best Services</div>
-            <button className="mt-2 w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 rounded-xl px-5 py-3 font-semibold shadow transition">
+            <button className="mt-2 w-full bg-[#1F4E8C] hover:bg-yellow-500 text-gray-900 rounded-xl px-5 py-3 font-semibold shadow transition">
               Contact Us Now! <span className="ml-1">&#8599;</span>
             </button>
           </div>

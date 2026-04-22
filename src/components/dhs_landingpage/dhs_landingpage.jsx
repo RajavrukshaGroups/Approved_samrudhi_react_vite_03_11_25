@@ -40,7 +40,7 @@ const LandingPage = () => {
           </div>
        
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-yellow-400 transition transform hover:scale-105 shadow-lg">
+            <button className="px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-[#1F4E8C] transition transform hover:scale-105 shadow-lg">
               Join Now
             </button>
             <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-[#18473F] transition">
@@ -261,7 +261,7 @@ const LandingPage = () => {
               href="https://defencehousingsociety.com/online_application"          
               target="_blank"                    
               rel="noopener noreferrer"          
-              className="inline-block px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-yellow-400 transition transform hover:scale-105"
+              className="inline-block px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-[#1F4E8C] transition transform hover:scale-105"
             >
               Apply for Membership
             </a>

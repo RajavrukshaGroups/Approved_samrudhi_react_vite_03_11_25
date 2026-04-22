@@ -17,10 +17,10 @@ export default function ContactCard() {
           <div className="w-full md:w-1/2 md:pr-8">
             <div className="mb-8">
               <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-                <span className="text-[#000000] md:text-[40px]">
+                <span className="text-[#1F4E8C] md:text-[40px]">
                   We’re here to help you
                 </span>{" "}
-                <span className="text-yellow-500 md:text-[40px]">
+                <span className="text-[#C9A227] md:text-[40px]">
                   make the right choice
                 </span>
               </h2>
@@ -55,7 +55,7 @@ export default function ContactCard() {
               </div>
               <button
                 type="submit"
-                className="bg-gray-800 text-white py-3.5 rounded-xl font-semibold hover:bg-gray-700 transition-all duration-300 flex items-center justify-center gap-2 group mt-2"
+                className="bg-[#1F4E8C] text-white py-3.5 rounded-xl font-semibold hover:bg-gray-700 transition-all duration-300 flex items-center justify-center gap-2 group mt-2"
               >
                 SEND INQUIRY
                 <FaArrowRight className="group-hover:translate-x-1 transition-transform duration-300" />
@@ -69,10 +69,10 @@ export default function ContactCard() {
               {/* Contact Item */}
               <div className="flex items-start space-x-4 group hover:bg-gray-50 p-3 rounded-xl transition-all duration-300">
                 <div className="bg-gray-100 rounded-xl p-3 group-hover:bg-gray-200 transition-all duration-300">
-                  <FaMapMarkerAlt className="text-gray-700 text-lg" />
+                  <FaMapMarkerAlt className="text-[#C9A227] text-lg" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">
+                  <p className="text-xs text-[#1F4E8C] font-semibold tracking-wider mb-1">
                     OUR HUB
                   </p>
                   <p className="text-gray-800 text-sm font-medium">
@@ -85,10 +85,10 @@ export default function ContactCard() {
               {/* Contact Item */}
               <div className="flex items-start space-x-4 group hover:bg-gray-50 p-3 rounded-xl transition-all duration-300">
                 <div className="bg-gray-100 rounded-xl p-3 group-hover:bg-gray-200 transition-all duration-300">
-                  <FaPhoneAlt className="text-gray-700 text-lg" />
+                  <FaPhoneAlt className="text-[#C9A227] text-lg" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">
+                  <p className="text-xs text-[#1F4E8C] font-semibold tracking-wider mb-1">
                     CALL US
                   </p>
                   <p className="text-gray-800 text-sm font-medium">
@@ -100,10 +100,10 @@ export default function ContactCard() {
               {/* Contact Item */}
               <div className="flex items-start space-x-4 group hover:bg-gray-50 p-3 rounded-xl transition-all duration-300">
                 <div className="bg-gray-100 rounded-xl p-3 group-hover:bg-gray-200 transition-all duration-300">
-                  <FaEnvelope className="text-gray-700 text-lg" />
+                  <FaEnvelope className="text-[#C9A227] text-lg" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">
+                  <p className="text-xs text-[#1F4E8C] font-semibold tracking-wider mb-1">
                     EMAIL US
                   </p>
                   <p className="text-gray-800 text-sm font-medium">
@@ -116,20 +116,20 @@ export default function ContactCard() {
               <div className="mt-8 p-4 bg-gray-50 rounded-xl border border-gray-200">
                 <div className="flex items-center space-x-3 mb-3">
                   <div className="bg-gray-100 rounded-lg p-2">
-                    <FaClock className="text-gray-700" />
+                    <FaClock className="text-[#C9A227]" />
                   </div>
-                  <h3 className="text-gray-800 font-semibold text-sm font-[Arial,Helvetica,sans-serif]">
+                  <h3 className="text-[#1F4E8C] font-semibold text-sm font-[Arial,Helvetica,sans-serif]">
                     OPERATING HOURS
                   </h3>
                 </div>
                 <div className="text-gray-600 text-sm space-y-1">
-                  <div className="flex justify-between">
-                    <span>Monday - Saturday:</span>
-                    <span className="font-medium">9:30 AM - 6:30 PM</span>
+                  <div className="flex justify-between text-gray-800">
+                    <span >Monday - Saturday:</span>
+                    <span className="font-medium text-blue-600">9:30 AM - 6:30 PM</span>
                   </div>
-                  <div className="flex justify-between text-gray-500">
+                  <div className="flex justify-between text-gray-800">
                     <span>Sunday:</span>
-                    <span className="font-medium">Closed</span>
+                    <span className="font-medium text-red-600">Closed</span>
                   </div>
                 </div>
               </div>

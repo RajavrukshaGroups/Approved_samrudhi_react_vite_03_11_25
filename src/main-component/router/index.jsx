@@ -89,10 +89,10 @@ useEffect(() => {
         <Route path="/dhs-landingpage" element={<DhsLandingPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-        <CelebrationModal
+        {/* <CelebrationModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}
-      />
+      /> */}
     </>
   );
 };
