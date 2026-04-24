@@ -36,6 +36,7 @@ import DhsLandingPage from "../../components/dhs_landingpage/dhs_landingpage.jsx
 // import SamrudhiAboutUs from "../../components/samrudhi-aboutus/AboutUs.tsx"
 import AaricaPopup from "../../components/aarica-popup/aaricapopup.tsx"
 import CelebrationModal from "../../components/aarica-popup/CelebrationModal.tsx";
+import ShaniwarasanteProject from '../../components/ShaniwarasanteProject.jsx'
 
 
 const RoutesWithLoader = () => {
@@ -86,7 +87,8 @@ useEffect(() => {
         <Route path="/status" element={<Status />} />
         <Route path="/privacyPolicy" element={<MainPrivacyPolicy />} />
         <Route path="/aceternity" element={<HeroScrollDemo />} />
-        <Route path="/dhs-landingpage" element={<DhsLandingPage />} />
+        <Route path="/dhs-project" element={<DhsLandingPage />} />
+        <Route path="/shaniwarasante-project" element={<ShaniwarasanteProject/>}/>
         <Route path="*" element={<ErrorPage />} />
       </Routes>
         {/* <CelebrationModal

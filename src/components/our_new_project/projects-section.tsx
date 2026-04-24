@@ -2,6 +2,9 @@ import React from 'react';
 import ProjectCard from "./projectCards";
 import { useNavigate } from 'react-router-dom';
 import sylRetreatHomePage from '../../components/assets/assets/syl-retreat-home-page.jpg'
+import shaniwarasanteProjectImg from '../assets/shaniwarasante-project-img.jpg'
+import Logo from "../../components/assets/assets/Samrudhi_Logo.png";
+
 
 const projects = [
   {
@@ -23,9 +26,16 @@ const projects = [
     id: 3,
     title: "DHS Projects",
     image: "https://res.cloudinary.com/dx7pz8dor/image/upload/v1773809118/HR-9_plj1wc.webp",
-    route: "/dhs-landingpage",
+    route: "/dhs-project",
     logo:"https://defencehousingsociety.com/static/media/logo.7f1b64b36d9ee9ca486e.png"
   },
+   {
+    id: 3,
+    title: "Shaniwarasante Projects",
+    image: shaniwarasanteProjectImg,
+    route: "/shaniwarasante-project",
+    logo:Logo
+   }
 ]
 
 export default function ProjectsSection() {

@@ -162,7 +162,7 @@ export default function PojectIconic() {
                  <div class="flex items-center">
        
            <Link 
-              to="/dhs-landingpage"
+              to="/dhs-project"
               className="px-6 py-2 bg-[#F3C64E] text-[#18473F] font-semibold rounded-full hover:bg-[#e2b843] transition-colors relative z-30"
             >
             DHS Projects
