@@ -66,7 +66,7 @@ const investorCards = [
 ];
 
 const InvestorCard = ({ card, onReadMore }) => (
-  <article className="w-full lg:min-w-[280px] lg:flex-1 rounded-[28px] bg-[#18473F] p-6 lg:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
+  <article className="w-full lg:min-w-[280px] lg:flex-1 rounded-[28px] bg-[#1F4E8C] p-6 lg:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
     <div className="flex items-center justify-center">{icons[card.icon]}</div>
     <h5 className="mt-4 lg:mt-6 text-center text-base md:text-lg lg:text-xl md:w-[247px] font-extrabold leading-snug text-[#F3C64E] font-[Arial,Helvetica,sans-serif]">
       {card.title}
@@ -114,8 +114,8 @@ const ServicesSection = () => {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white to-white"></div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-            <span className="text-[#000000] md:text-[50px]">Investor-Centric </span>
-            <span className="text-yellow-400 md:text-[50px]">Approach</span>
+            <span className="text-[#1F4E8C] md:text-[50px]">Investor-Centric </span>
+            <span className="text-[#C9A227] md:text-[50px]">Approach</span>
           </h2>
                   <p className="font-normal pl-8 text-black">At Samrudhi, we recognize that our investors are pivotal to our success. We are
           committed to fostering transparent, mutually beneficial relationships by providing clear
@@ -132,7 +132,7 @@ const ServicesSection = () => {
         {modalOpen && selectedCard && (
           <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
             <div 
-              className="bg-gradient-to-br from-[#18473F] to-[#0e3b01] rounded-3xl shadow-2xl relative max-w-2xl w-full max-h-[90vh] overflow-hidden border border-[#F3C64E]/20"
+              className="bg-gradient-to-br from-[#C9A227] to-[#0e3b01] rounded-3xl shadow-2xl relative max-w-2xl w-full max-h-[90vh] overflow-hidden border border-[#F3C64E]/20"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Header with decorative elements */}

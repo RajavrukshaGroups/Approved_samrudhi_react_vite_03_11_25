@@ -17,10 +17,11 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop Navbar - Exact same as original */}
-      <header className="hidden lg:flex absolute top-0 left-0 w-full items-center justify-between px-16 py-8 z-10">
+      <header className="hidden lg:flex absolute top-0 left-0 w-full items-center justify-between px-16 py-2 z-10">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="relative">
+            <Link to="/">
              <img
               src={Logo}
               width="150"
@@ -32,6 +33,7 @@ const Navbar = () => {
                   "",
               }}
             />
+            </Link>
           </div>
         </div>
 
@@ -66,7 +68,7 @@ const Navbar = () => {
         {/* Contact button */}
         <Link
           to="/contact"
-          className="bg-yellow-300 text-gray-900 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-yellow-400 transition flex items-center gap-2"
+          className="bg-[#1F4E8C] text-white font-semibold py-2 px-6 rounded-full shadow-md hover:bg-[#2E67B1] transition flex items-center gap-2"
         >
           Get In Touch
           <span className="ml-1">→</span>
@@ -152,7 +154,7 @@ const Navbar = () => {
             {/* Mobile Contact Button */}
             <Link
               to="/contact"
-              className="bg-yellow-300 text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg hover:bg-yellow-400 hover:scale-105 transition-all duration-300 flex items-center gap-3 text-xl mt-8 border-2 border-yellow-300"
+              className="bg-[#0B2E59] text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg hover:bg-[#1F4E8C] hover:scale-105 transition-all duration-300 flex items-center gap-3 text-xl mt-8 border-2 border-yellow-300"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Get In Touch

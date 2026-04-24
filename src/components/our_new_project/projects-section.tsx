@@ -1,12 +1,13 @@
 import React from 'react';
 import ProjectCard from "./projectCards";
 import { useNavigate } from 'react-router-dom';
+import sylRetreatHomePage from '../../components/assets/assets/syl-retreat-home-page.jpg'
 
 const projects = [
   {
     id: 1,
     title: "Sylvan Retreat",
-    image: "https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-green-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: sylRetreatHomePage,
     route: "/sylvan-retreat",
     logo:"http://rajavrukshagroup.in/static/media/Sylvan-official-logo.03abfc0da66b2119cfef.png"
   },
@@ -16,14 +17,14 @@ const projects = [
     image: "https://thesamrudhi.com/assets/project_one-CFfO-9Th.jpg",
     isSecondProject: true,
     route: "/aarika-project",
-    logo:"https://test.thesamrudhi.com/static/media/Aarika%20png.297c3c42750efb337424.png"
+    logo:"https://thesamrudhi.com/assets/Aarika-removebg-preview-FBh8BEwr.png"
   },
   {
     id: 3,
     title: "DHS Projects",
-    image: "https://images.pexels.com/photos/8134847/pexels-photo-8134847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://res.cloudinary.com/dx7pz8dor/image/upload/v1773809118/HR-9_plj1wc.webp",
     route: "/dhs-landingpage",
-    logo:"https://digitaleliteservices.in/assets/DHS.png"
+    logo:"https://defencehousingsociety.com/static/media/logo.7f1b64b36d9ee9ca486e.png"
   },
 ]
 
@@ -40,8 +41,8 @@ export default function ProjectsSection() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4 font-[Arial,Helvetica,sans-serif]">
-            <span className="text-black">Our</span>{" "}
-            <span className="text-yellow-500">Projects</span>
+            <span className="text-[#1F4E8C]">Our</span>{" "}
+            <span className="text-[#C9A227]">Projects</span>
           </h1>
         </div>
         {/* Projects Grid */}

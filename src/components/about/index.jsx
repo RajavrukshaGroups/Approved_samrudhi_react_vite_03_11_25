@@ -48,7 +48,7 @@ const About = ({ text, readMore }) => {
                       <div ref={containerRef} style={{ position: "relative" }}>
                         <VariableProximity
                           label={"Vision"}
-                          className={"variable-proximity-demo"}
+                          className={"variable-proximity-demo text-[#1F4E8C]"}
                           fromFontVariationSettings="'wght' 800, 'opsz' 9"
                           toFontVariationSettings="'wght' 1000, 'opsz' 40"
                           containerRef={containerRef}
@@ -98,7 +98,7 @@ const About = ({ text, readMore }) => {
                         >
                           <VariableProximity
                             label={"Mission"}
-                            className={"variable-proximity-demo"}
+                            className={"variable-proximity-demo text-[#C9A227]"}
                             fromFontVariationSettings="'wght' 800, 'opsz' 9"
                             toFontVariationSettings="'wght' 1000, 'opsz' 40"
                             containerRef={containerRef}

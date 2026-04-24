@@ -106,8 +106,8 @@ export default function ServiceSection() {
         initialOpacity={0} >
         {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
      <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-        <span className="text-[#000000] md:text-[50px]">Our</span>{' '}
-        <span className="text-[#fde047] md:text-[50px]">Services</span>
+        <span className="text-[#1F4E8C] md:text-[50px]">Our</span>{' '}
+        <span className="text-[#C9A227] md:text-[50px]">Services</span>
       </h2>
 
       </FadeContent>
@@ -158,7 +158,7 @@ export default function ServiceSection() {
                   easing="ease-out"
                   initialOpacity={0}
                 >
-                  <h3 className="text-lg font-bold font-[Arial,Helvetica,sans-serif] text-gray-800 mb-3 leading-tight">
+                  <h3 className="text-lg font-bold font-[Arial,Helvetica,sans-serif] text-[#1F4E8C] mb-3 leading-tight">
                     {service.title}
                   </h3>
                 </FadeContent>

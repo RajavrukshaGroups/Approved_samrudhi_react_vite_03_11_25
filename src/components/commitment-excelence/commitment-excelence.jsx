@@ -7,17 +7,17 @@ export default function TrustSection() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-16">
         <div className="flex-1 w-full max-w-2xl animate-fade-in-right">
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-            <span className="text-[#000000] md:text-[50px]">Our Commitment to </span>
-            <span className="text-yellow-400 md:text-[50px]">Excellence</span>
+            <span className="text-[#1F4E8C] md:text-[50px]">Our Commitment to </span>
+            <span className="text-[#C9A227] md:text-[50px]">Excellence</span>
           </h2>
           <div className="mt-10 space-y-6 lg:space-y-8">
             {/* Feature 01 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="text-yellow-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
+                <span className="text-yellow-500 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
                   01
                 </span>
-                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
+                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-[#1F4E8C]">
                   Ethical Practices and Compliance
                 </h3>
               </div>
@@ -30,10 +30,10 @@ export default function TrustSection() {
             {/* Feature 02 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="text-yellow-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
+                <span className="text-yellow-500 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
                   02
                 </span>
-                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
+                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-[#1F4E8C]">
                   Continuous Professional Development
                 </h3>
               </div>
@@ -46,10 +46,10 @@ export default function TrustSection() {
             {/* Feature 03 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
-                <span className="text-yellow-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
+                <span className="text-yellow-500 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-yellow-600">
                   03
                 </span>
-                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
+                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-[#1F4E8C]">
                   Advanced Technology Integration
                 </h3>
               </div>

@@ -96,7 +96,8 @@ const HeroSection = () => {
                 }}
               >
                 <source
-                  src="https://res.cloudinary.com/den0iz8zn/video/upload/v1761550156/video_27_1_cl99cn.mp4"
+                  // src="https://res.cloudinary.com/den0iz8zn/video/upload/v1761550156/video_27_1_cl99cn.mp4"
+                   src="https://res.cloudinary.com/dxdgk4v3t/video/upload/v1776857908/hero-bg-video_iftkmv.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -118,7 +119,7 @@ const HeroSection = () => {
               <div className="mt-8 flex items-center gap-6">
                 <a
                   href="/projects"
-                  className="bg-yellow-300 text-gray-900 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-yellow-400 transition flex items-center gap-3"
+                  className="bg-[#1F4E8C] text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-[#1F4E8C]transition flex items-center gap-3"
                 >
                   Explore Plots <span>→</span>
                 </a>

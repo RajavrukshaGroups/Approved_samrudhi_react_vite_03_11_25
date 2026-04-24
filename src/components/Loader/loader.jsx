@@ -165,16 +165,16 @@ export default function SamrudhiLoader() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-white">
       {/* Small circular loader */}
-      <div className="w-10 h-10 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin mb-4"></div>
+      <div className="w-10 h-10 border-4 border-[#C9A227] border-t-transparent rounded-full animate-spin mb-4"></div>
 
       {/* Text */}
-      <h1 className="text-3xl font-semibold font-[Arial,Helvetica,sans-serif] text-gray-800 tracking-wide ">Samrudhi</h1>
-      <p className="text-sm text-yellow-500">our expertice your prosperity</p>
+      <h1 className="text-3xl font-semibold font-[Arial,Helvetica,sans-serif] text-[#1F4E8C] tracking-wide ">Samrudhi</h1>
+      <p className="text-sm text-[#C9A227]">our expertice your prosperity</p>
 
       {/* Loading line */}
       <div className="w-40 h-1 bg-gray-200 rounded-full overflow-hidden mt-2">
         <motion.div
-          className="h-full bg-yellow-400"
+          className="h-full bg-[#1F4E8C]"
           initial={{ width: "0%" }}
           animate={{ width: "100%" }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}

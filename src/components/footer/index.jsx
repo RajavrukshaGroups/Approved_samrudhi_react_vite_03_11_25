@@ -9,10 +9,11 @@ import {
   Instagram,
   Linkedin,
 } from "lucide-react";
+import Logo from "../../components/assets/assets/Samrudhi_Logo.png";
 
 const Footer = () => {
   return (
-    <footer className="relative h-[400px] overflow-hidden bg-yellow-600 text-white ">
+    <footer className="relative h-[400px] overflow-hidden bg-[#C9A227] text-white ">
       {/* Wave SVG Background */}
       <div className="absolute inset-0 pointer-events-none">
         <svg
@@ -22,7 +23,7 @@ const Footer = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill="hsl(var(--footer-primary))"
+            fill="#0B2E59"
             fillOpacity="1"
             d="M0,128L80,144C160,160,320,192,480,186.7C640,181,800,139,960,122.7C1120,107,1280,117,1360,122.7L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
           />
@@ -33,9 +34,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-footer-primary">
-              YOUR NAME
-            </h3>
+            {/* <h3 className="text-2xl font-bold text-[#C9A227]">
+              SAMRUDHI
+            </h3> */}
+           
+            <img src={Logo} className="w-[135px] h-auto object-contain bg-white rounded-2xl p-1" />
+          
             <p className="text-sm text-white leading-relaxed">
               We guide you in selecting the best property that aligns with your
               vision and goals
@@ -52,9 +56,9 @@ const Footer = () => {
                   key={label}
                   to="#"
                   aria-label={label}
-                  className="w-10 h-10  rounded-full bg-yellow-300 border-2 border-footer-iconBg flex items-center justify-center hover:bg-footer-primary hover:border-footer-primary transition-all duration-300 group"
+                  className="w-10 h-10  rounded-full bg-[#0B2E59] border-2 border-footer-iconBg flex items-center justify-center hover:bg-footer-primary hover:border-footer-primary transition-all duration-300 group"
                 >
-                  <Icon className="w-4 h-4 text-footer-iconBg group-hover:text-yellow-600 transition-colors" />
+                  <Icon className="w-4 h-4 text-[white] group-hover:text-[#C9A227] transition-colors" />
                 </Link>
               ))}
             </div>
@@ -62,7 +66,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-footer-primary">
+            <h3 className="text-xl font-bold text-[#C9A227]">
               Quick Links
             </h3>
 
@@ -90,7 +94,7 @@ const Footer = () => {
 
           {/* Services */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-footer-primary">Services</h3>
+            <h3 className="text-xl font-bold text-[#C9A227]">Services</h3>
             <ul className="space-y-3">
               {[
                 "Monday to Saturday ",
@@ -112,11 +116,11 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-footer-primary">
+            <h3 className="text-xl font-bold text-[#C9A227]">
               Contact Info
             </h3>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-sm">
+              <li className="flex items-start gap-2 text-sm">
                 <div className="w-10 h-10 rounded-full bg-footer-primary flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin className="w-5 h-5 text-footer-secondary" />
                 </div>

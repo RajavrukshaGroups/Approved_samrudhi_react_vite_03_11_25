@@ -66,10 +66,10 @@ const CoreValues = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h1 className="text-5xl font-[Arial,Helvetica,sans-serif] font-bold bg-yellow-400 bg-clip-text text-transparent mb-4">
+          <h1 className="text-5xl font-[Arial,Helvetica,sans-serif] font-bold bg-[#1F4E8C] bg-clip-text text-transparent mb-4">
           Empowering Values for a Better Future
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
             The principles that guide us in delivering excellence and building lasting relationships
           </p>
         </motion.div>
@@ -95,11 +95,11 @@ const CoreValues = () => {
               >
                 <div className="bg-card rounded-lg p-6 shadow-card hover:shadow-hover transition-all duration-300 cursor-pointer border border-border/50 hover:border-primary/30 h-full">
                   <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-600 flex items-center justify-center text-primary-foreground font-bold">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#E6C34A] flex items-center justify-center text-primary-foreground font-bold">
                       {value.id}
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-semibold text-[13px] font-[Arial,Helvetica,sans-serif] text-foreground text-base leading-snug">
+                      <h3 className="font-semibold text-[#1F4E8C] text-[13px] font-[Arial,Helvetica,sans-serif] text-foreground text-base leading-snug">
                         {value.title}
                       </h3>
                     </div>
@@ -148,10 +148,10 @@ const CoreValues = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="mt-6 bg-card rounded-lg p-6 shadow-card border border-border/50"
             >
-              <h3 className="text-lg  font-semibold font-[Arial,Helvetica,sans-serif] mb-2">
+              <h3 className="text-lg text-[#1F4E8C] font-semibold font-[Arial,Helvetica,sans-serif] mb-2">
                 Building Excellence Together
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-gray-700 text-sm leading-relaxed">
                 Our core values form the foundation of everything we do. They guide our decisions,
                 shape our culture, and define how we serve our clients and communities.
               </p>

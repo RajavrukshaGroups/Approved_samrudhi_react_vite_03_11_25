@@ -10,8 +10,8 @@ function IntegratedTeam() {
             <Users className="w-10 h-10 text-white" />
           </div>
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-            <span className="text-[#000000] md:text-[50px]">Our Integrated </span>
-            <span className="text-yellow-400 md:text-[50px]">Team of Experts</span>
+            <span className="text-[#1F4E8C] md:text-[50px]">Our Integrated </span>
+            <span className="text-[#C9A227] md:text-[50px]">Team of Experts</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-600 mx-auto rounded-full"></div>
         </div>

@@ -46,10 +46,10 @@ return (
       <div className="flex flex-col h-full group">
       {/* Project Title */}
       <div className="mb-4">
-        <h3 className="text-xl font-[Arial,Helvetica,sans-serif] font-bold text-black mb-2">
+        <h3 className="text-xl font-[Arial,Helvetica,sans-serif] font-bold text-[#1F4E8C] mb-2">
           {title}
         </h3>
-        <div className="w-12 h-1 bg-green-600 rounded-full"></div>
+        <div className="w-12 h-1 bg-[#C9A227] rounded-full"></div>
       </div>
 
       {/* Image Container with Logo */}
