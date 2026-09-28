@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../navbar/navbar.jsx";
 import Loader from "../Loader/loader.jsx"; 
+import BackgroundVideo from "../../components/assets/hero-bg-video.mp4";
 
 const titles = [
   <>
@@ -97,7 +98,8 @@ const HeroSection = () => {
               >
                 <source
                   // src="https://res.cloudinary.com/den0iz8zn/video/upload/v1761550156/video_27_1_cl99cn.mp4"
-                   src="https://res.cloudinary.com/dxdgk4v3t/video/upload/v1776857908/hero-bg-video_iftkmv.mp4"
+                   //src="https://res.cloudinary.com/dxdgk4v3t/video/upload/v1776857908/hero-bg-video_iftkmv.mp4"
+                   src={BackgroundVideo}
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
