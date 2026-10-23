@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from "./projectCards";
 import { useNavigate } from 'react-router-dom';
 import sylRetreatHomePage from '../../components/assets/assets/syl-retreat-home-page.jpg'
+import aarikaLogo from "../../components/assets/Aarika png.png"
 
 const projects = [
   {
@@ -17,14 +18,14 @@ const projects = [
     image: "https://thesamrudhi.com/assets/project_one-CFfO-9Th.jpg",
     isSecondProject: true,
     route: "/aarika-project",
-    logo:"https://thesamrudhi.com/assets/Aarika-removebg-preview-FBh8BEwr.png"
+    logo:aarikaLogo,
   },
   {
     id: 3,
     title: "DHS Projects",
-    image: "https://res.cloudinary.com/dx7pz8dor/image/upload/v1773809118/HR-9_plj1wc.webp",
+    image: "https://defencehousingsociety.com/static/media/HR-4.65de3c3f9a47256d5e23.webp",
     route: "/dhs-landingpage",
-    logo:"https://defencehousingsociety.com/static/media/logo.7f1b64b36d9ee9ca486e.png"
+    logo:  "https://defencehousingsociety.com/static/media/logo.7f1b64b36d9ee9ca486e.png"
   },
 ]
 
