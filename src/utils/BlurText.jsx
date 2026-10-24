@@ -92,7 +92,6 @@ const BlurText = ({
             ...props,
             display: "inline-block",
             willChange: "transform, filter, opacity",
-            fontSize: "18px",
             color: "#000000",
             fontWeight: "600",
             fontFamily:"Arial",

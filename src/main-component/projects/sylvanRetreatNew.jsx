@@ -41,13 +41,14 @@ const Footer = React.lazy(() => import("../../components/footer/index.jsx"));
 
 const SylvanRetreatNew = () => {
   
-  const title = "Sylvan Retreat - Premium Farmlands & Plots";
+  const title = "Managed Farm Land for Sale in Doddaballapur, North Bangalore | Samrudhi";
   const description =
-    "Discover Sylvan Retreat, an exclusive real estate project offering premium farmlands and plots surrounded by nature. Ideal for peaceful living.";
-  const ogTitle = "Sylvan Retreat - Real Estate Excellence";
+    "Explore managed farm land for sale in Doddaballapur, North Bangalore, with Samrudhi. Discover your ideal farmland investment opportunity today!";
+  const ogTitle = "Managed Farm Land for Sale in Doddaballapur, North Bangalore | Samrudhi";
   const ogDescription =
-    "Explore Sylvan Retreat, an exquisite farmland project that promises a tranquil lifestyle. Ideal for nature lovers and investment opportunities.";
-  const ogUrl = "https://rajavrukshagroup.in/sylvan-retreat";
+    "Explore managed farm land for sale in Doddaballapur, North Bangalore, with Samrudhi. Discover your ideal farmland investment opportunity today!";
+  const ogUrl = "https://thesamrudhi.com/sylvan-retreat";
+  const canonicalUrl = "https://thesamrudhi.com/sylvan-retreat";
 
   useEffect(() => {
     updateMetaTags({
@@ -80,10 +81,15 @@ const SylvanRetreatNew = () => {
     <Fragment>
       <Helmet>
         <title>{title}</title>
+        <meta name="title" content={title} />
         <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={ogTitle} />
         <meta property="og:description" content={ogDescription} />
         <meta property="og:url" content={ogUrl} />
+        <meta property="twitter:title" content={ogTitle} />
+        <meta property="twitter:description" content={ogDescription} />
+        <meta property="twitter:url" content={ogUrl} />
       </Helmet>
       <div>
         <div className="header-retreat">

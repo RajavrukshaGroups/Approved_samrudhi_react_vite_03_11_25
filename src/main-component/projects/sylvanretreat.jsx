@@ -23,11 +23,38 @@ const NewCarousel = React.lazy(() =>
 );
 
 function Sylvanretreats() {
- 
+  const title = "Managed Farm Land for Sale in Doddaballapur, North Bangalore | Samrudhi";
+  const description =
+    "Explore managed farm land for sale in Doddaballapur, North Bangalore, with Samrudhi. Discover your ideal farmland investment opportunity today!";
+  const ogTitle = "Managed Farm Land for Sale in Doddaballapur, North Bangalore | Samrudhi";
+  const ogDescription =
+    "Explore managed farm land for sale in Doddaballapur, North Bangalore, with Samrudhi. Discover your ideal farmland investment opportunity today!";
+  const ogUrl = "https://thesamrudhi.com/sylvan-retreat";
+  const canonicalUrl = "https://thesamrudhi.com/sylvan-retreat";
+
+  useEffect(() => {
+    updateMetaTags({
+      title,
+      description,
+      ogTitle,
+      ogDescription,
+      ogUrl,
+    });
+  }, [title, description, ogTitle, ogDescription, ogUrl]);
 
   return (
     <Fragment>
       <Helmet>
+        <title>{title}</title>
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta property="twitter:title" content={ogTitle} />
+        <meta property="twitter:description" content={ogDescription} />
+        <meta property="twitter:url" content={ogUrl} />
       </Helmet>
       <Header />
       <Suspense
