@@ -115,6 +115,9 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
+    watch: {
+      ignored: ['**/*.zip', '**/build/**'],
+    },
   },
   build: {
     outDir: 'build',
