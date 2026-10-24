@@ -169,7 +169,7 @@ export default function SamrudhiLoader() {
 
       {/* Text */}
       <h1 className="text-3xl font-semibold font-[Arial,Helvetica,sans-serif] text-[#1F4E8C] tracking-wide ">Samrudhi</h1>
-      <p className="text-sm text-[#C9A227]">our expertice your prosperity</p>
+      <p className="text-sm text-[#C9A227]">our expertise your prosperity</p>
 
       {/* Loading line */}
       <div className="w-40 h-1 bg-gray-200 rounded-full overflow-hidden mt-2">
